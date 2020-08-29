@@ -1,4 +1,4 @@
-title: minima-reboot
+title: EE209
 
 plugins:
   - jekyll-seo-tag
@@ -10,7 +10,11 @@ minima_reboot:
   date_format_short: "%b %-d"
 
 header_pages:
-- about.md
+- syllabus.md
+- precepts.md
+- assign.md
+- announcements.md
+- policy.md
 
 paginate: 5
 
