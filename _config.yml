@@ -3,7 +3,6 @@ title: minima-reboot
 plugins:
   - jekyll-seo-tag
   - jekyll-paginate
-  - jekyll-feed
   - jekyll-redirect-from
 
 minima_reboot:
