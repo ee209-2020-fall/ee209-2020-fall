@@ -14,6 +14,7 @@ Please refer to the Classum for asking questions about assignments or anything r
 
 <hr><p></p>
 Please refer to the TA's office hour (Q&A session):
-<li class="toclevel-1"> <a href="https://docs.google.com/spreadsheets/d/1eAmyQk8tKRAGcJg8VOMzmE3TjUAy5kv9tUkfkC8vM8M/edit?usp=sharing">EE209A Q&A schedule</a><br>
+TBD
+<!-- <li class="toclevel-1"> <a href="https://docs.google.com/spreadsheets/d/1eAmyQk8tKRAGcJg8VOMzmE3TjUAy5kv9tUkfkC8vM8M/edit?usp=sharing">EE209A Q&A schedule</a><br> -->
 
 <hr><p></p>
