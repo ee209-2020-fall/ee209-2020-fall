@@ -10,10 +10,9 @@ minima_reboot:
   date_format_short: "%b %-d"
 
 header_pages:
-- syllabus.md
+- announcements.md
 - precepts.md
 - assign.md
-- announcements.md
 - policy.md
 
 paginate: 5
