@@ -19,7 +19,7 @@ permalink: /precepts/
 <table class="tg" style="undefined;table-layout: fixed; width: 600px">
 <colgroup>
 <col style="width: 81px">
-<col style="width: 335px">
+<col style="width: 600px">
 <col style="width: 184px">
 </colgroup>
 <thead>
@@ -32,72 +32,93 @@ permalink: /precepts/
 <tbody>
   <tr>
     <td class="tg-c3ow">Week 1</td>
-    <td class="tg-0pky" colspan="2">No Precept</td>
+    <td class="tg-0pky" colspan="2">No precept</td>
   </tr>
   <tr>
     <td class="tg-c3ow">Week 2</td>
-    <td class="tg-0pky">TBD</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">Precept 1: Lab Environment, Unix, Bash, Emacs</td>
+    <td class="tg-0pky">
+    <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
+    <a href="http://klms.kaist.ac.kr/course/view.php?id=118850">EE209B Course Page</a>
+    </td>
   </tr>
   <tr>
     <td class="tg-c3ow">Week 3</td>
-    <td class="tg-0pky">TBD</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">Precept 2: Numbers & Types in C Programs</td>
+    <td class="tg-0pky">
+    <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
+    <a href="http://klms.kaist.ac.kr/course/view.php?id=118850">EE209B Course Page</a></td>
   </tr>
   <tr>
     <td class="tg-c3ow">Week 4</td>
-    <td class="tg-0pky">TBD</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">Precept 3: Control Flow, Functions, Multi-File C Programs, GDB</td>
+    <td class="tg-0pky">
+    <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
+    <a href="http://klms.kaist.ac.kr/course/view.php?id=118850">EE209B Course Page</a></td>
   </tr>
   <tr>
     <td class="tg-c3ow">Week 5</td>
-    <td class="tg-0pky">TBD</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">Precept 4: Arrays & Strings, Pointers, C Command-Line Arguments, Files</td>
+    <td class="tg-0pky">
+    <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
+    <a href="http://klms.kaist.ac.kr/course/view.php?id=118850">EE209B Course Page</a></td>
   </tr>
   <tr>
     <td class="tg-c3ow">Week 6</td>
-    <td class="tg-0pky">TBD</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">Precept 5: Structures, Dynamic Memory Management, Assignment 2</td>
+    <td class="tg-0pky">
+    <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
+    <a href="http://klms.kaist.ac.kr/course/view.php?id=118850">EE209B Course Page</a></td>
   </tr>
   <tr>
     <td class="tg-c3ow">Week 7</td>
-    <td class="tg-0pky">TBD</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">Precept 6: Dynamic Array API</td>
+    <td class="tg-0pky">
+    <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
+    <a href="http://klms.kaist.ac.kr/course/view.php?id=118850">EE209B Course Page</a></td>
   </tr>
   <tr>
     <td class="tg-c3ow">Week 8</td>
-    <td class="tg-0pky">TBD</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky" colspan="2">No precept in the mid-term exam period</td>
   </tr>
   <tr>
     <td class="tg-c3ow">Week 9</td>
-    <td class="tg-0pky">TBD</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">Precept 7: Introduction to IA-32 Assembly Language Programming, Assignment 3</td>
+    <td class="tg-0pky">
+    <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
+    <a href="http://klms.kaist.ac.kr/course/view.php?id=118850">EE209B Course Page</a></td>
   </tr>
   <tr>
     <td class="tg-c3ow">Week 10</td>
-    <td class="tg-0pky">TBD</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">Precept 8: Introduction to IA-32 Assembly Language Programming II</td>
+    <td class="tg-0pky">
+    <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
+    <a href="http://klms.kaist.ac.kr/course/view.php?id=118850">EE209B Course Page</a></td>
   </tr>
   <tr>
     <td class="tg-c3ow">Week 11</td>
-    <td class="tg-0pky">TBD</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky" colspan="2">No precept</td>
   </tr>
   <tr>
     <td class="tg-c3ow">Week 12</td>
-    <td class="tg-0pky">TBD</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">Precept 9: Makefile and Performance</td>
+    <td class="tg-0pky">
+    <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
+    <a href="http://klms.kaist.ac.kr/course/view.php?id=118850">EE209B Course Page</a></td>
   </tr>
   <tr>
     <td class="tg-c3ow">Week 13</td>
-    <td class="tg-0pky">TBD</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">Precept 11: Ish Basic Design & Process Management</td>
+    <td class="tg-0pky">
+    <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
+    <a href="http://klms.kaist.ac.kr/course/view.php?id=118850">EE209B Course Page</a></td>
   </tr>
   <tr>
     <td class="tg-c3ow">Week 14</td>
-    <td class="tg-0pky">TBD</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">Precept 12: Ish dup2() & Signal Handling</td>
+    <td class="tg-0pky">
+    <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
+    <a href="http://klms.kaist.ac.kr/course/view.php?id=118850">EE209B Course Page</a></td>
   </tr>
 </tbody>
 </table>
