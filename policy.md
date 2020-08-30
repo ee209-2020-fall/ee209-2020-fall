@@ -12,11 +12,7 @@ Lecture attendance is mandatory. You are responsible for
 the materials presented in the lecture and precepts. Some of the
 content is not in the textbook.
 
-Students are expected to regularly check
-the <a href="../announcements">course webpage</a>, <a href="../announcements">class
-schedule updates</a>, lecture
-notes, <a href="../assignments">programming assignments</a> and
-other related course materials.
+Students are expected to regularly check the course webpage, class schedule updates, lecture notes, programming assignments</a> and other related course materials.
 </p>
 
 <h2> Grading </h2>
