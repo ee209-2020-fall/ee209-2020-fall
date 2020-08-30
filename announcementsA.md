@@ -4,7 +4,7 @@ title: Announcements-209A
 permalink: /announcements-209A/
 ---
 
-Announcements will be posted at the KLMS course page for EE209A:
+Announcements will be posted at the KLMS course page:
 <li class="toclevel-1"> <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
 
 <hr><p></p>
@@ -13,7 +13,11 @@ Please refer to the Classum for asking questions about assignments or anything r
 
 
 <hr><p></p>
-Please refer below schedule table for Q&A session:
+Please refer to the TA's office hour (Q&A session):
+
+Please enter the main TA's Zoom link (If there are two TAs, then the first one is main TA).
+<br>
+Zoom link will be updated soon.
 
 <p></p>
 <style type="text/css">
@@ -201,3 +205,6 @@ Please refer below schedule table for Q&A session:
   </tr>
 </tbody>
 </table>
+
+<br>
+<hr><p></p>
