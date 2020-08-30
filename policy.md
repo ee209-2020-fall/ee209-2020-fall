@@ -21,6 +21,42 @@ notes, <a href="../assignments">programming assignments</a> and
 other related course materials.
 </p>
 
+<h2> Grading </h2>
+<hr>
+<p>
+
+</p><table style="border-collapse: collapse;" border="3" cellpadding="3">
+<tbody>
+
+<tr>
+<td> 5% </td>
+<td> Attendance  </td>
+</tr>
+
+<tr>
+<td> 20% </td>
+<td> Mid-term exam  </td>
+</tr>
+
+<tr>
+<td> 20% </td>
+<td> Final exam  </td>
+</tr>
+
+<tr>
+<td> 55% </td>
+<td> Five programming assignments</td>
+</tr>
+
+</tbody>
+</table>
+
+<p>
+We will use <a href="http://klms.kaist.ac.kr/course/view.php?id=118849"> KLMS EE209A Course Page</a> and <a href=""> KLMS EE209B Course Page</a>  to
+submit the assignment.
+</p>
+
+
 <h2> Assignment &amp; Exam Policy </h2>
 
 <hr>
