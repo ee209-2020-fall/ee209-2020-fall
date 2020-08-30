@@ -10,7 +10,8 @@ minima_reboot:
   date_format_short: "%b %-d"
 
 header_pages:
-- announcements.md
+- announcementsA.md
+- announcementsB.md
 - precepts.md
 - assign.md
 - policy.md

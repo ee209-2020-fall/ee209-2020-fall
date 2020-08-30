@@ -50,7 +50,7 @@ other related course materials.
 </table>
 
 <p>
-We will use <a href="http://klms.kaist.ac.kr/course/view.php?id=118849"> KLMS EE209A Course Page</a> and <a href=""> KLMS EE209B Course Page</a>  to
+We will use <a href="http://klms.kaist.ac.kr/course/view.php?id=118849"> KLMS EE209A Course Page</a> and <a href="http://klms.kaist.ac.kr/course/view.php?id=118850"> KLMS EE209B Course Page</a>  to
 submit the assignment.
 </p>
 
