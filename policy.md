@@ -17,7 +17,7 @@ the <a href="../">course
 webpage</a>
 for <a href="../announcements">announcements</a>, <a href="../syllabus">class
 schedule updates</a>, lecture
-notes, <a href="../assign">programming assignments</a> and
+notes, <a href="../assignments">programming assignments</a> and
 other related course materials.
 </p>
 
