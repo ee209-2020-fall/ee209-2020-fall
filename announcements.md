@@ -5,7 +5,6 @@ permalink: /announcements/
 ---
 
 Announcements will be posted at the KLMS course page for each class:
-
 <li class="toclevel-1"> <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
 <!-- <li class="toclevel-1"> <a href="">KLMS EE209B Course Page</a> -->
 
