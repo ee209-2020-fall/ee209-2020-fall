@@ -13,9 +13,7 @@ the materials presented in the lecture and precepts. Some of the
 content is not in the textbook.
 
 Students are expected to regularly check
-the <a href="../">course
-webpage</a>
-for <a href="../announcements">announcements</a>, <a href="../syllabus">class
+the <a href="../announcements">course webpage</a>, <a href="../announcements">class
 schedule updates</a>, lecture
 notes, <a href="../assignments">programming assignments</a> and
 other related course materials.
