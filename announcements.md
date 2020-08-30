@@ -15,7 +15,7 @@ Please refer to the Google spreadsheet for each class schedule:
 <!-- <li class="toclevel-1"> <a href="">KLMS EE209B Lecture and Q&A Schedule</a> -->
 
 <p></p>
-Please refer to the Google spreadsheet for each class schedule:
+Please refer to the Classum for asking questions about assignments or anything related to EE209:
 
 <li class="toclevel-1"> <a href="http://www.classum.com/exgmmy">EE209A Classum link</a><br>
 <!-- <li class="toclevel-1"> <a href="">EE209B Classum link</a><br> -->
