@@ -11,7 +11,7 @@ Announcements will be posted at the KLMS course page for each class:
 <p></p>
 Please refer to the Google spreadsheet for each class schedule:
 
-<li class="toclevel-1"> <a href="">EE209A Lecture and Q&A Schedule</a><br>
+<li class="toclevel-1"> <a href="">EE209A Q&A Schedule</a><br>
 <!-- <li class="toclevel-1"> <a href="">KLMS EE209B Lecture and Q&A Schedule</a> -->
 
 <p></p>
