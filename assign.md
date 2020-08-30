@@ -1,5 +1,5 @@
 ---
 layout: page
-title: Assignments
+title: Programming Assignments
 permalink: /assignments/
 ---
