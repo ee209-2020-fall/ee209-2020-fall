@@ -94,7 +94,7 @@ explain what code you use, and cite its source in your readme file.
 </p><p>
 Copying and transforming someone else's code (by rearranging
 independent code, renaming variables, rewording comments, etc.) is
-<b>plagiarism</b>. Some inexperienced programmers have the
+<span style=" font: bold; color:red;">plagiarism</span>. Some inexperienced programmers have the
 misconception that detecting such plagiarism is difficult. Actually,
 detecting such plagiarism is quite easy. Not only does such plagiarism
 quickly identify itself during the grading process, but also we can
@@ -103,7 +103,7 @@ software, for automated help.
 
 </p><p>
 If a student is confirmed to commit plagiarism on an assignment, then
-the standard penalty is <b>automatic failure (F)</b> of the EE 209
+the standard penalty is <span style=" font: bold; color:red;">automatic failure (F)</span> of the EE 209
 course.
 
 </p><h3> Providing help to others </h3>
@@ -134,7 +134,8 @@ to these:
 
 <h3> Exam Conduct</h3>
 
-If we find a student commits inappropriate conduct during an in-class exam, the standard penalty is <b>automatic failure (F)</b> of the EE 209 course.
+If we find a student commits inappropriate conduct during an in-class exam, the standard penalty is
+<span style=" font: bold; color:red;">automatic failure (F)</span> of the EE 209 course.
 
 <hr>
 Last Update: 2020-08-30<!--#echo var="LAST_MODIFIED"-->
