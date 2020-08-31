@@ -87,9 +87,9 @@ tar zxf 20195399_assign1.tar.gz
 
 <p>
 For every assignment submission, please fill out and submit
-the <b>pdf</b> version of <a href="./assignment/EthicsOath.docx">this
+the <b>pdf</b> version of <a href="../assignment/EthicsOath.docx">this
 document</a> that pledges your honor that you did not violate any
-ethics rules required by <a href="./policy">this course</a> and
+ethics rules required by <a href="../policy">this course</a> and
 KAIST.  You can either scan a printed version into a pdf file or make
 the Word document into a pdf file after filling it out.
 
