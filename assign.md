@@ -138,7 +138,7 @@ workload is not counted as extraordinary cicrumstances.
 <hr>
 
 <p>
-Please refer to <a href="./policy">the course policy page</a>.
+Please refer to <a href="../policy">the course policy page</a>.
 
 
 </p><h2> Coding Style </h2>
