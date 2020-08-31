@@ -15,7 +15,7 @@ grade. Some assignments provide extra credit beyond your total grade.
 </p>
 
 <ul>
-<li> Assignment 1: TBA (due: 11:59 PM on 9/18 (Friday)) </li>
+<li> Assignment 1: <a href="../assignment/assignment1/assignment1.html"> TBA</a> (due: 11:59 PM on 9/18 (Friday)) </li>
 <li> Assignment 2: TBA (due: 11:59 PM on 10/08 (Thursday)) </li>
 <li> Assignment 3: TBA (due: 11:59 PM on 11/06 (Friday)) </li>
 <li> Assignment 4: TBA (due: 11:59 PM on 11/27 (Friday)) </li>
