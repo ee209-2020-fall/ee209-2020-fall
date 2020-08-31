@@ -98,7 +98,7 @@ Please sign on the document and submit it along with your other
 assignment files, or we won't grade your assignment.
 
 
-<!-- </p><h2> Late Submission Penalty </h2>
+</p><h2> Late Submission Penalty </h2>
 <hr>
 
 <p>
@@ -131,7 +131,7 @@ or extraordinary cicrumstances. In case you are submitting your work
 late due to illness or extraordinary circumstances, please consult
 with the instructor as soon as possible. Please plan ahead (travel,
 religious holidays, etc.) to meet the deadlines. Note that heavy
-workload is not counted as extraordinary cicrumstances. -->
+workload is not counted as extraordinary cicrumstances.
 
 
 </p><h2> Collaboration Policy </h2>
