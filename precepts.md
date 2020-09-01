@@ -32,7 +32,7 @@ permalink: /precepts/
 <tbody>
   <tr>
     <td class="tg-c3ow">Week 1</td>
-    <td class="tg-0pky">Precept 1: Lab Environment, Unix, Bash, Emacs</td>
+    <td class="tg-0pky"><a href="http://klms.kaist.ac.kr/course/view.php?id=118849">Precept 1: Lab Environment, Unix, Bash, Emacs</a></td>
     <!-- <td class="tg-0pky">Precept 1: Lab Environment, Unix, Bash, Emacs</td> -->
     <td class="tg-0pky">
     <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
