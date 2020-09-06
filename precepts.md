@@ -32,7 +32,7 @@ permalink: /precepts/
 <tbody>
   <tr>
     <td class="tg-c3ow">Week 1</td>
-    <td class="tg-0pky">TBA</td>
+    <td class="tg-0pky"><a href="./01/precept_1.zip">Precept 1: Lab Environment, Unix, Bash, Emacs</a></td>
     <!-- <td class="tg-0pky">Precept 1: Lab Environment, Unix, Bash, Emacs</td> -->
     <td class="tg-0pky">
     <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
@@ -40,16 +40,17 @@ permalink: /precepts/
     </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">Week 11</td>
-    <td class="tg-0pky" colspan="2">No precept</td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">Week 3</td>
+    <td class="tg-c3ow">Week 2</td>
     <td class="tg-0pky">TBA</td>
-    <!-- <td class="tg-0pky">Precept 2: Numbers & Types in C Programs</td> -->
+    <!-- <td class="tg-0pky"><a href="./01/precept_2.zip">Precept 2: Numbers & Types in C Programs</a></td> -->
     <td class="tg-0pky">
     <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
     <a href="http://klms.kaist.ac.kr/course/view.php?id=118850">EE209B Course Page</a></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Week 3</td>
+    <td class="tg-0pky" colspan="2">No precept</td>
+
   </tr>
   <tr>
     <td class="tg-c3ow">Week 4</td>

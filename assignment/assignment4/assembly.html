@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <title>EE 209: Assembly Language Programming Assignment</title>
+    <link rel='stylesheet' href='../../vendor/semantic.min.css' />
+    <link rel="stylesheet" type="text/css" href="../../vendor/components/menu.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../vendor/components/transition.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../vendor/styles/github-gist.css"/>
+    <link rel='stylesheet' href='../../vendor/ee209_assignment.css' />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="../../vendor/semantic.min.js"></script>
+    <script src="../../vendor/components/visibility.js"></script>
+    <script src="../../vendor/components/sidebar.js"></script>
+    <script src="../../vendor/components/transition.js"></script>
+</head>
+<body>
+
+<div class="ui top fixed hidden menu custom">
+    <div class="ui container">
+        <a class="go-prev" href="../"><h3 class><i class="chevron left icon"></i></h3></a>
+        <a class=""><h3 class="">Assignment 4: Assembly Language Programming</h3></a>
+    </div>
+</div>
+
+<div class="ui container">
+    <div class="ui center aligned">
+        <h1 class="ui center aligned header">KAIST<br> EE 209: Programming Structures for EE</h1>
+
+        <h2 class="ui center aligned header">Assignment 4: Assembly Language Programming</h2>
+
+        <h4 class="ui center aligned header" id="timer">&nbsp;</h4>
+    </div>
+
+
+
+    <h2 class="ui dividing header">Purpose</h2>
+
+    <p>The purpose of this assignment is to help you learn about computer
+        architecture, assembly language programming, and testing strategies. It
+        also will give you the opportunity to learn more about the GNU/Unix
+        programming tools, especially <code>bash</code>, <code>emacs</code>,
+        <code>gcc209</code>, and <code>gdb</code> for assembly language programs.
+    </p>
+
+    <!--
+    <hr>
+
+    <h3>Rules</h3>
+
+    <p> Part b is "on your own" part, and will take up 20% of the grade. </p>
+    -->
+
+    <h2 class="ui dividing header">Part 1: Implement basic functions of dc</h2>
+
+    <p><code>dc</code> (<em>d</em>esk <em>c</em>alculator) is a tool on
+        Unix-like operating systems. In its simplest form, <code>dc</code>
+        reads a list of numbers from the standard input (stdin) and uses a set
+        of command keys to display results of user-specified operations on the
+        standard output (stdout). <br></p>
+
+    <p>In <code>dc</code>, the operands (numbers) and operators are added
+        in <it>reverse-polish</it> (also known as <it>postfix</it>)
+        notation. In this scheme, the operator follows the operands. The
+        following example execution run explains how <code>dc</code> is
+        used.
+<div class="ui message">
+    <pre>
+567
+343223
++
+p
+343790
+q
+</pre></div>
+
+    <p><code>dc</code> uses a stack to store numbers in LIFO order
+        (last-in, first-out). Whenever it encounters an arithmetic operator,
+        it first pops out the last 2 operands from the stack, runs the
+        operation on those numbers and then pushes the result back into the
+        stack. In the example above, <code>567</code> and <code>343223</code>
+        are pushed in the stack one after the other. Once the
+        operator <code>'+'</code> is entered, <code>dc</code> first
+        pops <code>343223</code> and then
+        <code>567</code> from the stack. It then adds the two integers and finally
+        pushes the result (<code>343790</code>) back in the stack. The command
+        <code>p</code> is used to print the value that sits on the top of the
+        stack. Please note that <code>p</code> only retrieves the value without
+        <u>popping</u> (this is also known as a peek operation). The user can
+        either quit the program by entering <code>q</code> or <code>EOF</code>
+        character to the program. In other words, if the annotated text mentioned
+        above is stored in a file named values.txt then <code>dc</code> can also be
+        executed in the following manner:</p>
+
+    <div class="ui message">
+    <pre >$ dc &lt; values.txt</pre></div>
+
+    <p>which will print the result to the standard output stream as:</p>
+
+    <div class="ui message">
+    <pre>343790</pre></div>
+
+    The <code>dc</code> tool supports a number of operators and subsidiary
+    commands which you can study on the <a href="./dc.1.html">man
+    page</a>. For this assignment, you are required to implement only the
+    following operations.
+
+    <ul>
+        <li> Printing operator: <code>p</code> </li>
+        <li> Arithmetic operators: <code> +, -, *, /, %, ^</code> </li>
+        <ul>
+            <li> <code>%</code> performs remainder operation.
+            <li> <code>^</code> performs exponentiation. (e.g., 2^4 = 16). You don't need to implement negative exponent.
+            <li> You don't need to consider negative integers for <code>%</code> and <code>/</code>.</li>
+        </ul>
+        <li> Terminating operator: <code>q</code> </li>
+    </ul>
+    </p>
+
+    <p> To make the assignment tractable in assembly programming, we make
+        some simplifying assumptions:
+
+    <ul>
+        <li> You can assume all operands are 32-bit signed integers. </li>
+        <li> The result of an arithmetic operation is in the range of a 32-bit
+            signed integer. </li>
+        <li> You do not need to handle an overflow/underflow. That is, it is
+            OK not to handle it correctly even if the result of an operation
+            exceeds the range of a 32-bit signed integer. </li>
+        <li> You can assume that each input line has only 1 operand/operator. </li>
+        <li> You do not need to handle input errors (but your program should
+            not crash with invalid input). See below for more detail on error handling.
+    </ul>
+
+    <!--p> For this assigment, you do not need to handle input errors (but your
+    program should not crash with invalid input). You can assume that all
+    operands are integers and that no operators other than the above will be
+    fed as input. Moreover we will test <code>dc</code> by passing only 1
+    operand/operator per line (meaning each operand/operator will be followed
+    by a newline character). -->
+
+    <p> You might want to use <code>esp</code> and <code>ebp</code>
+        registers to simulate the stack in the main function.
+
+    <p> We are providing a <a href="./src/mydc.s">startup file</a> which
+        contains the pseudo-code of dc.s file. Please go through the
+        pseudo-code before you begin writing the program. It is acceptable to
+        use global (i.e. bss section or data section) variables
+        in <code>mydc.s</code>. Please make sure that you create your own
+        function to implement the power (^) arithmetic
+        operator. In <code>dc</code>, negative numbers can be added by
+        pre-appending <code>'_'</code> symbol to the number. For example</p>
+
+    <p>
+        <a class="ui labeled icon button" href="./src/mydc.s">
+            <i class="download icon"></i><code>mydc.s</code>
+        </a>
+        <a class="ui labeled icon button" href="./src/Makefile">
+            <i class="download icon"></i><code>Makefile</code>
+        </a>
+    </p>
+
+    <div class="ui message">
+    <pre>
+_4
+3
+-
+p
+-7
+q
+</pre>
+    </div>
+
+    calculates "-4 - 3", prints the top value (<code>p</code>), and quit the program (<code>q</code>).
+
+    <h2 class="ui dividing header">Part 2: Advanced functions</h2>
+
+    The <code>dc</code> tool also provides additional operations that
+    manipulate the input. You are required to implement the following
+    operators for this assignment.
+
+    <!------------------------------------------------------------------------->
+    <div class="scroll-x-container">
+        <table class="ui celled table unstackable">
+            <thead>
+        <tr>
+            <th>Advanced Operations
+            </th>
+            <th>Short decription
+            </th>
+        </tr>
+            </thead>
+            <tbody>
+        <tr>
+            <td width="20"><code>f</code>
+            </td>
+            <td width="80">Prints the contents of the stack in LIFO order. This is a
+                useful command to use if the user wants to keep track of the numbers he/she
+                has pushed in the stack.</td>
+        </tr>
+
+        <tr>
+            <td><code>c</code>
+            </td>
+            <td>Clears the contents of the stack.</td>
+        </tr>
+
+        <tr>
+            <td><code>d</code>
+            </td>
+            <td>Duplicates the top-most entry of the stack and pushes it in the stack.</td>
+        </tr>
+
+        <tr>
+            <td><code>r</code>
+            </td>
+            <td>Reverses the order of (swaps) the top two values on the stack.</td>
+        </tr>
+
+        <tr>
+            <td><code>x</code>
+            </td>
+            <td>Generates a non-negative random number smaller than 1024 and pushes it in the stack.</td>
+        </tr>
+
+        <tr>
+            <td><code>y</code>
+            </td>
+            <td>Finds the biggest one of the prime numbers that are lesser or equal to the top-most entry in the stack, and pushes it in the stack if it exists.</td>
+        </tr>
+	</tbody>
+    </table>
+    </div>
+    <!------------------------------------------------------------------------->
+
+    <p>Please note that <code>'f'</code> does <b>not</b> pop out any
+        numbers out of the stack. The following example run of dc shows how a
+        combination of different <code>dc</code> operators can be used:</p>
+
+    <div class="ui message">
+    <pre>
+53
+48
+35
++
++
+343223
+43
+56
+76
+35
+98
+1
+f
+1
+98
+35
+76
+56
+43
+343223
+136
+q
+</pre></div>
+
+    <p> <code>dc</code> keeps on pushing the integers on the stack (<code>53,
+        48, 35</code>) till it encounters the first <code>'+'</code> operator.
+        It pops out <code>35</code> and <code>48</code>, computes the addition and
+        inserts <code>83</code> back in the top of the stack. When the second
+        <code>'+'</code> is inserted, it repeats the same process with the integers
+        <code>83</code> and <code>53</code> and inserts back <code>136</code> in
+        the empty stack. Later when <code>'f'</code> is entered, <code>dc</code>
+        prints out all the contents of the stack in LIFO order.
+
+
+    <p>The following self-explanatory example shows how one can use <code>'d'</code>
+        in <code>dc</code></p>
+    <div class="ui message">
+    <pre>
+4
+d
+*
+p
+16
+q
+</pre>
+    </div>
+    <p> Finally, <code>'r'</code> is used to reverse the order of (swaps) the
+        top two values on the stack as is shown in the example below:</p>
+
+    <div class="ui message">
+    <pre>
+4
+8
+f
+8
+4
+r
+f
+4
+8
+q
+</pre>
+    </div>
+    In order to implement <code>x</code> (to generate a random number), You can implement an assembly code corresponding to following C function.
+
+    <div class="ui message">
+    <pre>
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;time.h&gt;
+
+#define RAND_MAX 1024
+
+int get_random() {
+    int random_number = rand() % RAND_MAX; // random number up to 1024
+    return random_number;
+}
+
+int main() {
+     srand(time(NULL)); // call srand at the beginning of the main
+     ...
+     int random_number = get_random();
+     ...
+}
+    </pre>
+    </div>
+    <h3>Error Handling</h3> You are required to implement basic error
+    handling and ensure that your program does not crash with any given
+    input (except for one case: it is OK to crash if <code>dc</code> has to
+    divide by 0). Your program should ignore those input values that have mixed
+    alphanumeric characters. You should check whether the stack has at
+    least two operands for <code>+, -, *, /, %, ^</code> operations. In
+    case there are not enough operands, <code>dc</code> should print out
+    '<code>dc: stack empty</code>' to standard output.  For <code>p, d,
+    r</code> operators, <code>dc</code> should again print '<code>dc:
+    stack empty</code>' if the stack does not contain at least one
+    operand (two for <code>r</code>). For all other operators, <code>dc</code> should do nothing if
+    the stack is empty.
+
+
+<!--    <h2 class="ui dividing header">Sample <code>dc</code></h2>-->
+<!--    <p>You can test your input below.</p>-->
+
+<!--    <p style="font-weight: bold">Updated: If you don't see a prompt below, please try sample dc <a href="http://ee209.kaist.ac.kr:7681/" target="_blank">here</a>.</p>-->
+
+<!--    <div class="ui top attached info message">-->
+<!--        <h4 style="text-align: right">-->
+<!--            <a href="javascript:location.reload()">Reconnect</a>-->
+<!--        </h4>-->
+<!--    </div>-->
+<!--    <div class="ui bottom attached segment" style="padding: 0;">-->
+<!--        <iframe name="iframe1" id="iframe1_"  src="http://ee209.kaist.ac.kr:7681/" width="100%" height="360px" frameborder="0" style="margin-bottom: -10px; overflow-y: hidden"></iframe>-->
+<!--    </div>-->
+
+    <h2 class="ui dividing header">Logistics</h2>
+
+    <p>Develop on lab machines. Use <code>emacs</code> to create source code. Use <code>gdb</code> to debug.</p>
+
+    <p><strong>Do not use a C compiler to produce any of your assembly language code. Doing so would be considered an instance of academic dishonesty.</strong> Instead produce your assembly language code manually.</p>
+
+<!--    <p class='change'> KS: can't figure out what you mean by "flattened" pseudo code</p>-->
+
+    <p>We encourage you to develop "flattened" pseudo-code (as described in precepts) to bridge the gap between the given pseudo-code and your assembly language code. Using flattened pseudo-code as a bridge can eliminate <em>logic</em> errors from your assembly language code, leaving only the possibility of <em>translation</em> errors.</p>
+
+    <p>We also encourage you to use your flattened pseudo-code as comments in your assembly language code. Such comments can clarify your assembly language code substantially.</p>
+
+    <p>Your <code>readme</code> file should contain:</p>
+
+    <ul>
+        <li>Your name and student ID.</li>
+
+        <li>A description of whatever help (if any) you received from others while doing the assignment, and the names of any individuals with whom you collaborated, as prescribed by the course "Policy" Web page.</li>
+
+        <li>(Optionally) An indication of how much time you spent doing the assignment.</li>
+
+        <li>(Optionally) Your assessment of the assignment.</li>
+
+        <li>(Optionally) Any information that will help us to grade your work in the most favorable light. In particular you should describe all known bugs.</li>
+    </ul>
+
+    <h2 class="ui dividing header"> Submission </h2>
+
+    <p>
+        Use <a href="http://klms.kaist.ac.kr" target="_blank">KAIST
+        KLMS</a> to submit your assignments. Your submission should
+        be one gzipped tar file whose name is
+
+        <code>YourStudentID_assign4.tar.gz</code>
+
+    </p><p>
+    For example, if your student ID is 20191234,
+    please name the file as
+    <code>20191234_assign4.tar.gz</code>
+
+
+</p>
+
+
+    <p>
+        Create a local directory named '<code>YourStudentID_assign4</code>' and place all your files in it. Then, <code>tar</code> your submission file.
+        Please refer <a href="../wc209/#submission">here</a> for how to archive your assignment.
+        <b>Do not archive your submission file without creating a directory and moving your files inside.</b></p>
+
+    <p>Your submission need to include the following files:</p>
+    <ul>
+        <li>Your <code>mydc.s</code> file.</li>
+        <li>A <code>readme</code> file.</li>
+        <li> <a href="../EthicsOath.docx">Observance of Ethics</a>. Sign on the document, save it into a PDF file, and submit it. </li>
+        <li>(Optionally) Any data file you tested your <code>mydc</code> program with.</li>
+    </ul>
+    </ul>
+
+    <!--
+    <pre style="margin-left:2em;">
+    mkdir 20091234_assign4
+    mv mydc.s testmydc.sh <em>anyBashScriptsCalledByTestmydc.sh</em> mydc*.txt readme 20091234_assign4
+    tar zcf 20091234_assign4.tar.gz 20091234_assign4
+    </pre>
+    -->
+    <p>Please do not submit <code>emacs</code> backup files, that is, files that end with '~'.</p>
+    <p>
+        Create a local directory named '<code>YourStudentID_assign4</code>' and place all your files in it. Then, <code>tar</code> your submission file.
+        Please refer <a href="../wc209/#submission">here</a> for how to archive your assignment.
+        <b>Do not archive your submission file without creating a directory and moving your files inside.</b></p>
+
+    <p>Your submission file should look like this: </p>
+    <div class="ui segment">
+        <div class="ui list">
+            <div class="item">
+                <i class="archive icon"></i>
+                <div class="content">
+                    20191234_assign4.tar.gz
+                    <!--                    <div class="description">Source files for project</div>-->
+                    <div class="list">
+                        <div class="item">
+                            <i class="folder icon"></i>
+                            <div class="content">
+                                20191234_assign4
+                                <div class="list">
+                                    <div class="item">
+                                        <i class="file icon"></i>
+                                        <div class="content">
+                                            mydc.s
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <i class="file icon"></i>
+                                        <div class="content">
+                                            readme
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <i class="file icon"></i>
+                                        <div class="content">
+                                            EthicsOath.pdf
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <i class="file icon"></i>
+                                        <div class="content">
+                                            test_case
+                                            <div class="description">(Optional, can be any name or multiple files)</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <p>You can use this <a href="./checker.html"> checker</a> before you submit. This checker only checks your submission is in valid format.</p>
+    <div class="ui message error">
+        Do not put another source files in your submission.
+        Your implementation must lay in <code>mydc.s</code>, not in other files.
+    </div>
+    <div class="ui message warning">
+        The name of the files must be exact. Note that file name is case sensitive. You might not get the full credit if the names are not correct.
+    </div>
+    <h2 class="ui dividing header">Grading</h2>
+    <div class="ui message error">
+        If your code cannot be compiled at <code>eelab5</code> with <code>gcc209</code>, we cannot give you any points. Please double check before you submit.
+        <b>For this assignment, it is HIGHLY RECOMMENDED to check your code at <code>eelab5</code>. Your implementation may not work at <code>eelab5</code>, even if the code works on another lab machines.</b>
+    </div>
+    <p>As always, we will grade your work on quality from the user's and programmer's points of view. To encourage good coding practices, we will deduct points if <code>gcc209</code> generates warning messages.</p>
+
+    <p>Comments in your assembly language programs are especially important. Each assembly language function -- especially the <code>main</code> function -- should have a comment that describes what the function does. Local comments within your assembly language functions are equally important. Comments copied from corresponding "flattened" C code are particularly helpful.</p>
+
+    <p>Your assembly language code should use <code>.equ</code> directives to avoid "magic numbers." In particular, you should use <code>.equ</code> directives to give meaningful names to:</p>
+
+    <ul>
+        <li>Enumerated constants, for example: <code>.equ TRUE, 1</code>.</li>
+
+        <li>Parameter stack offsets, for example: <code>.equ OADDEND1, 8</code>.</li>
+
+        <li>Local variable stack offsets, for example: <code>.equ UICARRY, -4</code>.</li>
+
+        <li>Stack offsets at which callee-save registers are stored, for example: <code>.equ EBXOFFSET, -4</code>.</li>
+
+    </ul>
+
+    <div class="ui message warning">
+        Please note that you might not get a full credit even if you pass the test with your test case. TAs might use another test cases to test functionality and robustness of your implementation.
+    </div>
+</div>
+<script src="../../vendor/moment.min.js"></script>>
+<script src="../../vendor/highlight.pack.js"></script>
+<script src="../../vendor/ee209_assignment.js"></script>
+<script>showTimer('2020-11-27T23:59:00+0900');</script>
+</body>
+</html>

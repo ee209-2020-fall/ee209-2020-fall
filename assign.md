@@ -15,7 +15,7 @@ grade. Some assignments provide extra credit beyond your total grade.
 </p>
 
 <ul>
-<li> Assignment 1: TBA (due: 11:59 PM on 9/18 (Friday)) </li>
+<li> Assignment 1: <a href="../assignment/assignment1/wordcounting.html"> A Word Counting Program</a> (due: 11:59 PM on 9/18 (Friday)) </li>
 <li> Assignment 2: TBA (due: 11:59 PM on 10/08 (Thursday)) </li>
 <li> Assignment 3: TBA (due: 11:59 PM on 11/06 (Friday)) </li>
 <li> Assignment 4: TBA (due: 11:59 PM on 11/27 (Friday)) </li>
@@ -29,7 +29,7 @@ grade. Some assignments provide extra credit beyond your total grade.
 <!--font color="##FF0000"-->
 <p>
 To download any files linked in assignment pages from your linux terminal, you can use <code>wget</code> and specify the URL of the file. For example,
-</p><pre style="margin-left:2em; color:blue">wget ./assignment/wc209/files/samplewc209
+</p><pre style="margin-left:2em; color:blue">wget https://ee209-2020-fall.github.io/assignment/assignment1/samplewc209
 </pre>
 this command will download the sample binary (samplewc209) to your current directory. You can get the URL of the file by right-clicking the hyperlink and then selecting "copy link address".
 <p>
