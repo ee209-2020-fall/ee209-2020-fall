@@ -133,5 +133,8 @@ to these:
 If we find a student commits inappropriate conduct during an in-class exam, the standard penalty is
 <span style=" font: bold; color:red;">automatic failure (F)</span> of the EE 209 course.
 
+<br>
+<h2> Logistics </h2>
 <hr>
-Last Update: 2020-08-30<!--#echo var="LAST_MODIFIED"-->
+<p>
+<b>Please refer to logistics (Lecture #1) for more detailed information such as attendance rules, grading systems, and all other regulations for this class</b>
