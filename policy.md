@@ -12,7 +12,7 @@ Lecture attendance is mandatory. You are responsible for
 the materials presented in the lecture and precepts. Some of the
 content is not in the textbook.
 
-Students are expected to regularly check the course webpage, class schedule updates, lecture notes, programming assignments</a> and other related course materials.
+Students are expected to regularly check the course webpage, class schedule updates, lecture notes, programming assignments and other related course materials. <b>Please refer to logistics (Lecture #1) for more detailed information such as attendance rules, grading systems, and all other regulations for this class</b>
 </p>
 
 <h2> Grading </h2>
@@ -134,7 +134,4 @@ If we find a student commits inappropriate conduct during an in-class exam, the 
 <span style=" font: bold; color:red;">automatic failure (F)</span> of the EE 209 course.
 
 <br>
-<h2> Logistics </h2>
-<hr>
-<p>
-<b>Please refer to logistics (Lecture #1) for more detailed information such as attendance rules, grading systems, and all other regulations for this class</b>
+<br>
