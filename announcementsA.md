@@ -19,9 +19,9 @@ Please refer to the TA's office hour (Q&A session): <br>
 Please refer to the attendance status: <br>
 <li class="toclevel-1"> <a href="https://docs.google.com/spreadsheets/d/13diQlGu-VbPdLd9fkToArNd5HGmvbyoxYQrvva36IEc/edit?usp=sharing">EE209A Attendance Status</a><br>
 
-<hr><p></p>
+<!--hr><p></p>
 You can check your attendance (if you want to claim about attendance, please contact TA Dongsuk Oh):
-<li class="toclevel-1"> <a href="https://docs.google.com/spreadsheets/d/13diQlGu-VbPdLd9fkToArNd5HGmvbyoxYQrvva36IEc/edit?usp=sharing">EE209A attendance</a><br>
+<li class="toclevel-1"> <a href="https://docs.google.com/spreadsheets/d/13diQlGu-VbPdLd9fkToArNd5HGmvbyoxYQrvva36IEc/edit?usp=sharing">EE209A attendance</a><br-->
 
 <hr><p></p>
 We will provide recorded class videos in case of your particular case (e.g., illness), not just absent. <br>
