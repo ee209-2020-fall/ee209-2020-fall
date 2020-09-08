@@ -41,8 +41,8 @@ permalink: /precepts/
   </tr>
   <tr>
     <td class="tg-c3ow">Week 2</td>
-    <td class="tg-0pky">TBA</td>
-    <!-- <td class="tg-0pky"><a href="./01/precept_2.zip">Precept 2: Numbers & Types in C Programs</a></td> -->
+    <!--td class="tg-0pky">TBA</td-->
+    <td class="tg-0pky"><a href="./01/precept_2.zip">Precept 2: Numbers & Types in C Programs, Brefing about Assignment1 </a></td>
     <td class="tg-0pky">
     <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
     <a href="http://klms.kaist.ac.kr/course/view.php?id=118850">EE209B Course Page</a></td>
