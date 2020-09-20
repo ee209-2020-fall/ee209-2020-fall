@@ -54,8 +54,8 @@ permalink: /precepts/
   </tr>
   <tr>
     <td class="tg-c3ow">Week 4</td>
-    <td class="tg-0pky">TBA</td>
-    <!-- <td class="tg-0pky">Precept 3: Control Flow, Functions, Multi-File C Programs, GDB</td> -->
+    <!-- <td class="tg-0pky">TBA</td>-->
+    <td class="tg-0pky"><a href="./03/precept_3.zip">Precept 3: Control Flow, Functions, Multi-File C Programs, GDB </a></td> 
     <td class="tg-0pky">
     <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
     <a href="http://klms.kaist.ac.kr/course/view.php?id=118850">EE209B Course Page</a></td>
