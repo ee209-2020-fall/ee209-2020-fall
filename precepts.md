@@ -63,7 +63,7 @@ permalink: /precepts/
   <tr>
     <td class="tg-c3ow">Week 5</td>
     <!-- <td class="tg-0pky">TBA</td>-->
-    <td class="tg-0pky"><a href="./04/precept_4.zip">Precept 4: Arrays & Strings, Pointers, C Command-Line Arguments, Files, Assignment 2</td> 
+    <td class="tg-0pky"><a href="./04/precept_4.zip">Precept 4: Arrays & Strings, Pointers, C Command-Line Arguments, Files, Assignment 2 </a></td> 
     <td class="tg-0pky">
     <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
     <a href="http://klms.kaist.ac.kr/course/view.php?id=118850">EE209B Course Page</a></td>
