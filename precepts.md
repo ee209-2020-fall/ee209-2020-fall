@@ -70,8 +70,8 @@ permalink: /precepts/
   </tr>
   <tr>
     <td class="tg-c3ow">Week 6</td>
-    <td class="tg-0pky">TBA</td>
-    <!-- <td class="tg-0pky">Precept 5: Structures, Dynamic Memory Management</td> -->
+    <!-- <td class="tg-0pky">TBA</td> -->
+    <td class="tg-0pky"><a href="./05/precept_5.zip">Precept 5: Structures, Dynamic Memory Management </a></td> 
     <td class="tg-0pky">
     <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
     <a href="http://klms.kaist.ac.kr/course/view.php?id=118850">EE209B Course Page</a></td>
