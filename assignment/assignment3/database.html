@@ -21,7 +21,7 @@
 
 <div class="ui top fixed hidden menu custom">
     <div class="ui container">
-        <a class="go-prev" href="../"><h3 class><i class="chevron left icon"></i></h3></a>
+        <a class="go-prev" href="../../assignments"><h3 class><i class="chevron left icon"></i></h3></a>
         <a class=""><h3 class="">Assignment 3: Customer Management Table Assignment</h3></a>
     </div>
 </div>
@@ -57,9 +57,6 @@
         its elements are stored linearly in memory. </li>
 
 
-    <li>Linked list: a linked list is a data structure that its elements can be added or removed in efficient way than array.</li>
-
-
     <li>Hash table: a more efficient implementation might use a <em>hash
         table</em>, which reduces the complexity to search for data. Hash
         tables are described
@@ -79,11 +76,9 @@
         <li>[Task 1] Implement an API library for the customer data
             management, using a <b>dynamically resizable</b> array.</li>
 
-        <li>[Task 2] Implement the same API library using a linked list. </li>
+        <li>[Task 2] Implement the same API library using a hash table. </li>
 
-        <li>[Task 3] Implement the same API library using a hash table. </li>
-
-        <li>[Task 4] Test the correctness of your three libraries and measure
+        <li>[Task 3] Test the correctness of your three libraries and measure
             the performance.</li>
     </ul>
 
@@ -316,7 +311,7 @@ DB_T CreateCustomerDB(void)
     <!--p>Before you start this task, please go through the array implementation code and understand how it works. If you understand how the code implements dynamic memory allocation (using <code>malloc</code> and <code>free</code>), it would be helpful for Task 3. </p-->
 
 
-    <h2 class="ui dividing header">[Task 2] The <code>customer_manager</code> Linked List Implementation</h2>
+    <!--h2 class="ui dividing header">[Task 2] The <code>customer_manager</code> Linked List Implementation</h2>
 
     <p> Unfortunately, using an array is slow when you deal with a large
         number of user items. Frequent registration and unregistration of a
@@ -363,16 +358,14 @@ DB_T CreateCustomerDB(void)
         <li>Each user item should be allocated dynamically.</li>
         <li>Each user item must link to the next item of the linked list.</li>
     </ul>
-    <img alt="hash function overview" class="ui centered image" src="img/overview_ll.png" style="max-width: 740px"><br>
+    <img alt="hash function overview" class="ui centered image" src="img/overview_ll.png" style="max-width: 740px"><br-->
 
-    <h2 class="ui dividing header">[Task 3] The <code>customer_manager</code> Hash Table Implementation</h2>
-    <p> Unfortunately, the linked list implementation still requires a large time
-        when searching for certain user items in a very large database.
-        We can improve the performance of <code>customer_manager</code> operations
-        with a hash table in this task. Actually, you would need two hash
-        tables. One is for looking up a user item with ID as a key, and the
-        other is for a lookup with a name as a key. </p>
-
+    <h2 class="ui dividing header">[Task 2] The <code>customer_manager</code> Hash Table Implementation</h2>
+    <p> Unfortunately, using an array is slow when you deal with a large number of user items. Frequent reqistration and unregisteration of a user item creates many holes (empty elements) scattered across the array, which, in turn, makes these operations slow. Adding, deleting, and searching of a user item would eventually depend on linear search (unless you take extra measures to manage the holes separately). </p>
+    <p></p>
+    <p>
+        We improve the performance of customer_manager operations with a hash table in this task. Actually, you would need two hash tables. One is for looking up a user item with ID as a key, and the other is for a lookup with a name as a key.
+    </p>
 
     <p></p>
 
@@ -382,7 +375,7 @@ DB_T CreateCustomerDB(void)
 
     <ul>
         <li>Follow the function prototype described in <code>customer_manager.h</code>.</li>
-        <li>Reside in a file named <code>customer_manager3.c</code>.</li>
+        <li>Reside in a file named <code>customer_manager2.c</code>.</li>
         <li>Avoid any memory leaks. For each call of <code>malloc</code>
             or <code>calloc</code> in any object, eventually there should be
             exactly one call of <code>free</code>.</li>
@@ -412,7 +405,7 @@ static int hash_function(const char *pcKey, int iBucketCount)
     <b>Implementation tips:</b>
 
     <ul>
-        <li> Reuse the user item data structure that you defined in task 2,
+        <li> Reuse the user item data structure that you defined in task 1,
             but add proper fields to keep track of the next node in a hash
             table. You would need two such pointers in the new user item data
             structure since you will need to maintain two hash tables. </li>
@@ -461,7 +454,7 @@ static int hash_function(const char *pcKey, int iBucketCount)
     </ul>
     <img alt="hash function overview" class="ui centered image" src="img/overview.png"><br>
 
-    <h2 class="ui dividing header">[Task 4] Testing Your Library and Measuring the Performance</h2>
+    <h2 class="ui dividing header">[Task 3] Testing Your Library and Measuring the Performance</h2>
 
     <p>
         We
@@ -484,11 +477,9 @@ static int hash_function(const char *pcKey, int iBucketCount)
 // test your array-based implementation
 $ gcc209 -o testclient1 testclient.c customer_manager1.c
 $ ./testclient1
-
-// test your linked list-based implementation
+<!--// test your linked list-based implementation
 $ gcc209 -o testclient2 testclient.c customer_manager2.c
-$ ./testclient2
-
+$ ./testclient2-->
 // test your hash table-based implementation
 $ gcc209 -o testclient3 testclient.c customer_manager3.c
 $ ./testclient3</pre></div>
@@ -695,8 +686,8 @@ $ ./testclient3</pre></div>
     <p>Your submission need to include the following files:</p>
     <ul>
         <li>(Task 1) <code>customer_manager1.c</code> </li>
-        <li>(Task 2 and 4) <code>customer_manager2.c</code> </li>
-        <li>(Task 3 and 4) <code>customer_manager3.c</code> </li>
+        <li>(Task 2) <code>customer_manager2.c</code> </li>
+        <li>(Task 3) <code>no file is needed.</code> </li>
         <li><code>readme</code> text file</li>
         <li> <a href="../EthicsOath.docx">Observance of Ethics</a>. Sign on the document, save it into a PDF file, and submit it. </li>
     </ul>
@@ -708,12 +699,12 @@ $ ./testclient3</pre></div>
                 <i class="archive icon"></i>
                 <div class="content">
                     20191234_assign3.tar.gz
-                    <!--                    <div class="description">Source files for project</div>-->
+                    <!--                    <div class="description">Source files for project</div>>
                     <div class="list">
                         <div class="item">
                             <i class="folder icon"></i>
                             <div class="content">
-                                20191234_assign3
+                                20191234_assign3-->
                                 <div class="list">
                                     <div class="item">
                                         <i class="file icon"></i>
@@ -727,12 +718,12 @@ $ ./testclient3</pre></div>
                                             customer_manager2.c
                                         </div>
                                     </div>
-                                    <div class="item">
+                                    <!--div class="item">
                                         <i class="file icon"></i>
                                         <div class="content">
                                             customer_manager3.c
                                         </div>
-                                    </div>
+                                    </div-->
                                     <div class="item">
                                         <i class="file icon"></i>
                                         <div class="content">
@@ -746,9 +737,9 @@ $ ./testclient3</pre></div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            <!--/div>
                         </div>
-                    </div>
+                    </div-->
                 </div>
             </div>
         </div>
@@ -758,7 +749,7 @@ $ ./testclient3</pre></div>
     <div class="ui message error">
         <div class="header">Do not add files which has not been mentioned above.</div>
         <div class="description"> Do not put <code>customer_manager.h</code> or another source files in your submission.
-            Your implementation must lay in <code>customer_manager1.c</code>, <code>customer_manager2.c</code>, and <code>customer_manager3.c</code>, not in other files.
+            Your implementation must lay in <code>customer_manager1.c</code>, <code>customer_manager2.c</code><!--, and <code>customer_manager3.c</code-->, not in other files.
             <br>(You MUST not modify <code>customer_manager.h</code>, either.)</div>
 
     </div>
@@ -877,7 +868,7 @@ p->name = strdup("Kevin");</pre>
 
     <div class="ui top attached info message">
         <h4>Question 6</h4>
-        <p>In the hash table expansion of the task 3, it states that we need to expand "when the number of nodes in a hash table reaches 75% of the number of buckets".
+        <p>In the hash table expansion of the task 2, it states that we need to expand "when the number of nodes in a hash table reaches 75% of the number of buckets".
             What does it mean?
         </p>
     </div>
