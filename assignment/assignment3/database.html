@@ -481,8 +481,8 @@ $ ./testclient1
 $ gcc209 -o testclient2 testclient.c customer_manager2.c
 $ ./testclient2-->
 // test your hash table-based implementation
-$ gcc209 -o testclient3 testclient.c customer_manager3.c
-$ ./testclient3</pre></div>
+$ gcc209 -o testclient2 testclient.c customer_manager2.c
+$ ./testclient2</pre></div>
 
     <p>
         (<b>Extra credit: 15% </b>) We will give an extra credit to the
@@ -635,7 +635,7 @@ $ ./testclient3</pre></div>
         with <code>gcc209</code> and test your code on lab machine before
         submission.</p>
 
-    <p>Please follow the steps through Task 1 to Task 4 to complete
+    <p>Please follow the steps through Task 1 to Task 3 to complete
         the <code>customer_manager</code> API, and test your libraries.</p>
 
     We give two opportunities for getting an extra credit (each 15%).
@@ -815,8 +815,8 @@ $ ./testclient3</pre></div>
     <div class="ui bottom attached segment message-like-padding">
         <h4>Answer</h4>
         <p>You can use assert for your debugging. However, your code MUST still be able to return NULL to the caller without your assert code.</p>
-        <p>It is highly recommended to test if your code compiles without the assert macro (use <code>-DNDEBUG</code> flag when compile).
-            We will use <code>-DNDEBUG</code> option with <code>gcc209</code> for compiling and grading. Make sure to check your source code before submission.
+        <p>It is highly recommended to test if your code compiles without the assert macro (use <code>-D NDEBUG</code> flag when compile).
+            We will use <code>-D NDEBUG</code> option with <code>gcc209</code> for compiling and grading. Make sure to check your source code before submission.
             <b>If your code does not compile with <code>-DNDEBUG</code>, you will not get full credit and may get huge deduction in grading.</b></p>
     </div>
 
