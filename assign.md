@@ -71,10 +71,16 @@ mkdir 20195399_assign1 <br>
 mv all_your_files 20195399_assign1<br>
 
 </p><p>
-Then, create a .tar.gz file by the 'tar' command like
+Then, move to your directory 20195399
 
 </p><p>
-tar zcf 20195399_assign1.tar.gz 20195399_assign1
+cd 20195399_assign1
+
+</p><p>
+create a .tar.gz file by the 'tar' command like
+
+</p><p>
+tar -zcf 20195399_assign1.tar.gz *
 
 </p><p>
 Then, you'll see  20195399_assign1.tar.gz. If you want to decompress and release the files in it (in a different directory),
