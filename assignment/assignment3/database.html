@@ -69,8 +69,8 @@
     <h2 class="ui dividing header">Your Task</h2>
 
     <p>You will implement and improve the customer data management API
-        using various data structures. Your task in this assignment is
-        threefold: </p>
+        using various data structures. Your tasks in this assignment are below:
+    </p>
 
     <ul>
         <li>[Task 1] Implement an API library for the customer data
@@ -113,86 +113,216 @@ int GetSumCustomerPurchase(DB_T d, FUNCPTR_T fp);</pre>
     </p>
     <p>What each function does is as follows: </p>
 
+    <style type="text/css">
+        .tg  {width:800px;border-collapse:collapse;border-spacing:0;}
+        .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+        .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+          font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+        .tg .tg-baqh{width:100px;text-align:center;vertical-align:top}
+        .tg .tg-0lax{text-align:left;vertical-align:top}
+    </style>
+
     <ul>
         <li><code>CreateCustomerDB</code> should allocate memory for a new <code>DB_T</code> object and any underlying objects.</li>
-        <ul>
-            <li>On success, it should return a pointer to the memory block for the new <code>DB_T</code> object.</li>
-            <li>If the function fails to allocate the memory, it should return <code>NULL</code>.</li>
-        </ul>
+            <table class="tg">
+            <thead>
+                <tr>
+                <th class="tg-baqh" rowspan="2">Return value</th>
+                <th class="tg-0lax">On success, it should return a pointer to the memory block for the new <code>DB_T</code> object.</th>
+                </tr>
+                <tr>
+                <td class="tg-0lax">If the function fails to allocate the memory, it should return <code>NULL</code>.<br></td>
+                </tr>
+            </thead>
+            </table><br>
 
         <li><code>DestroyCustomerDB</code> should free all memory occupied by the <code>DB_T</code> object and all the underlying objects.</li>
-        <ul>
-            <li>If the given pointer to the <code>DB_T</code> object is <code>NULL</code>, it should do nothing.</li>
-        </ul>
+            <table class="tg">
+            <thead>
+                <tr>
+                <th class="tg-baqh">Implementation tips</th>
+                <th class="tg-0lax">If the given pointer to the <code>DB_T</code> object is <code>NULL</code>, it should do nothing.</th>
+                </tr>
+            </thead>
+            </table><br>
 
         <li><code>RegisterCustomer</code> registers a new item, that is, a new
             user whose ID is <code>id</code>, name is <code>name</code>, and
             purchase amount is <code>purchase</code> to the <code>DB_T</code>
             object <code>d</code>.
-            <ul>
-
-                <li>This function should store a new user item with her customer information with <code>d</code>. </li>
-                <li>The new item should <b>own</b> the id and name strings by copying them to new buffers. Consider using <code>strdup()</code>. If you use <code>strdup()</code>, please add <code>-D_GNU_SOURCE</code> after <code>gcc209</code>. (e.g., <code>$ gcc209 -D_GNU_SOURCE -o testclient testclient.c</code>)</li>
-                <li>On success, it should return 0. Otherwise (e.g., on failure), it should return -1. </li>
-                <li>If any of <code>d</code>, <code>id</code>, or <code>name</code> is <code>NULL</code>, it is a failure. If <code>purchase</code> is zero or a negative number, it is a failure.</li>
-                <li>If an item with the same id _or_ with the same name already exists, it is a failure. You should not modify the existing item in this case,
-                    and should not leak memory for the new item. A good strategy is to check if such an item already exists, and allocate the new item only
-                    if it does not exist. </li>
-            </ul>
+            <table class="tg">
+            <thead>
+                <tr>
+                <th class="tg-baqh">Objective</th>
+                <th class="tg-0lax"> <li>This function should store a new user item with customer information with <code>d</code>.</li></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td class="tg-baqh" rowspan="2">Return value</td>
+                <td class="tg-0lax">
+                    On success, it should return 0. <br>
+                    Otherwise (e.g., on failure), it should return -1.</td>
+                </tr>
+                <tr>
+                <td class="tg-0lax">
+                1) If any of <code>d</code>, <code>id</code>, or <code>name</code> is <code>NULL</code>, it is a failure.<br>
+                2) If <code>purchase</code> is zero or a negative number, it is a failure.<br>
+                3) If an item with the same id or with the same name already exists, it is a failure.<br>
+                More about rule3: You should not modify the existing item in this case, and should not leak memory for the new item. A good strategy is to check if such an item already exists, and allocate the new item only if it does not exist. <br>
+                </td>
+                </tr>
+                <tr>
+                <td class="tg-baqh">Implementation tips</td>
+                <td class="tg-0lax">The new item should <b>own</b> the id and name strings by copying them to new buffers. Consider using <code>strdup()</code>. If you use <code>strdup()</code>, please add <code>-D_GNU_SOURCE</code> after <code>gcc209</code>. (e.g., <code>$ gcc209 -D_GNU_SOURCE -o testclient testclient.c</code>)</td>
+                </tr>
+            </tbody>
+            </table><br>
 
         </li><li><code>UnregisterCustomerByID</code> unregisters a user whose ID is <code>id</code> from the <code>DB_T</code> object, <code>d</code>.</li>
-        <ul>
-            <li>On success, it should return 0. Otherwise, it should return -1. </li>
-            <li>If <code>d</code> or <code>id</code> is <code>NULL</code>, it is a failure. If no such item exists, it is a failure.</li>
-            <li>Make sure that you free all the memory allocated for the item being unregistered.</li>
-        </ul>
+            <table class="tg">
+            <thead>
+              <tr>
+                <th class="tg-baqh" rowspan="2">Return value</th>
+                <th class="tg-0lax">
+                    On success, it should return 0.<br>
+                    Otherwise, it should return -1.
+                </th>
+              </tr>
+              <tr>
+                <td class="tg-0lax">
+                    1) If <code>d</code> or <code>id</code> is <code>NULL</code>, it is a failure. <br>
+                    2) If no such item exists, it is a failure.</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="tg-baqh">Implementation tips</td>
+                <td class="tg-0lax">Make sure that you free all the memory allocated for the item being unregistered.</td>
+              </tr>
+            </tbody>
+            </table><br>
 
         <li><code>UnregisterCustomerByName</code> unregisters a user whose name is <code>name</code> from the <code>DB_T</code> object, <code>d</code>.</li>
-        <ul>
-            <li> It is identical to <code>UnregisterCustomerByID</code> except that it matches <code>name</code> instead of <code>id</code>.
-            </li><li>On success, it should return 0. Otherwise, it should return -1. </li>
-            <li>If <code>d</code> or <code>name</code> is <code>NULL</code>, it is a failure. If no such item exists, it is a failure.</li>
-            <li>Make sure that you free all the memory allocated for the item being unregistered.</li>
-        </ul>
+            <table class="tg">
+                <thread>
+                    <tr>
+                        <th class="tg-baqh" rowspan="2">Return value</th>
+                        <th class="tg-0lax">
+                            On success, it should return 0.<br>
+                            Otherwise, it should return -1.
+                        </th>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax">
+                            1) If <code>d</code> or <code>name</code> is <code>NULL</code>, it is a failure. <br>
+                            2) If no such item exists, it is a failure.</td>
+                    </tr>
+                </thread>
+                <tbody>
+                    <tr>
+                    <td class="tg-baqh">Implementation tips</td>
+                    <td class="tg-0lax">Make sure that you free all the memory allocated for the item being unregistered.</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                    <td class="tg-baqh">Caution</td>
+                    <td class="tg-0lax">It is identical to <code>UnregisterCustomerByID</code> except that it matches <code>name</code> instead of <code>id</code>.</td>
+                    </tr>
+                </tbody>
+            </table><br>
 
         <li><code>GetPurchaseByID</code> searches for the purchase amount of the customer whose ID is <code>id</code> from a <code>DB_T</code> object <code>d</code>.</li>
-        <ul>
-            <li>On success, it should return the purchase amount. Otherwise, it should return -1</li>
-            <li>If <code>d</code> or <code>id</code> is <code>NULL</code>, it is a failure. If there is no customer whose ID matches the given one, it is a failure.</li></ul>
+            <table class="tg">
+                <thead>
+                <tr>
+                    <th class="tg-baqh" rowspan="2">Return value</th>
+                    <th class="tg-0lax">
+                        On success, it should return the purchase amount.<br>
+                        Otherwise, it should return -1
+                    </th>
+                </tr>
+                <tr>
+                    <td class="tg-0lax">
+                        1) If <code>d</code> or <code>id</code> is <code>NULL</code>, it is a failure. <br>
+                        2) If there is no customer whose ID matches the given one, it is a failure.</td>
+                </tr>
+                </thead>
+                </table><br>
 
         <li><code>GetPurchaseByName</code> searches for the purchase amount of the customer whose name is <code>name</code> from a <code>DB_T</code> object <code>d</code>.</li>
-        <ul>
-            <li>It is identical to <code>GetPurchaseByID</code> except that it matches <code>name</code> instead of <code>id</code>.
-            </li><li>On success, it should return the purchase amount. Otherwise, it should return -1</li>
-            <li>If <code>d</code> or <code>name</code> is <code>NULL</code>, it is a failure. If there is no customer whose name matches the given one, it is a failure. </li>
-        </ul>
+            <table class="tg">
+                <thead>
+                <tr>
+                    <th class="tg-baqh">Objective</th>
+                    <th class="tg-0lax">It is identical to <code>GetPurchaseByID</code> except that it matches <code>name</code> instead of <code>id</code>.</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="tg-baqh" rowspan="2">Return value</td>
+                    <td class="tg-0lax">
+                        On success, it should return the purchase amount.<br>
+                        Otherwise, it should return -1</td>
+                </tr>
+                <tr>
+                    <td class="tg-0lax">
+                        1) If <code>d</code> or <code>name</code> is <code>NULL</code>, it is a failure. <br>
+                        2) If there is no customer whose name matches the given one, it is a failure.
+                    </td>
+                </tr>
 
-        <li><code>GetSumCustomerPurchase</code> calculates the sum of the numbers returned by <code>fp</code> by calling <code>fp</code> for each user item. That is, this function iterates
-            every user item in <code>d</code>, calls <code>fp</code> once for each user item, and returns the sum of the numbers returned by <code>fp</code>. </li>
-        <ul>
-            <li>On success, <code>GetCustomerPurchase</code> should return the sum of all numbers returned by <code>fp</code> by iterating each user item in <code>d</code>.</li>
-            <li>If <code>d</code> or <code>fp</code> is NULL, it should return -1.</li>
-            <li> Note that <code>fp</code> is provided by the caller
-                of <code>GetSumCustomerPurchase</code>. <code>fp</code> is a function
-                pointer that takes user's id, name, and purchase as parameters,
-                evaluates a specific condition on it, and returns a non-negative
-                number. For example, the following code snippet shows the example of
-                the function pointed by <code>fp</code>, which returns the half of the
-                purchase amount of the user whose name contains with "Gorilla".
+                </tbody>
+                </table><br>
+
+        <li><code>GetSumCustomerPurchase</code> calculates the sum of the numbers returned by <code>fp</code> by calling <code>fp</code> for each user item. That is, this function iterates every user item in <code>d</code>, calls <code>fp</code> once for each user item, and returns the sum of the numbers returned by <code>fp</code>. </li>
+            <table class="tg">
+                <thread>
+                    <tr>
+                        <th class="tg-baqh" rowspan="2">Return value</th>
+                        <th class="tg-0lax">
+                            On success, <code>GetCustomerPurchase</code> should return the sum of all numbers returned by <code>fp</code> by iterating each user item in <code>d</code>.
+                        </th>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax">If <code>d</code> or <code>fp</code> is NULL, it should return -1.</td>
+                    </tr>
+                </thread>
+                <tbody>
+                    <tr>
+                        <td class="tg-baqh">Implementation tips</td>
+                        <td class="tg-0lax">Note that <code>fp</code> is provided by the caller
+                            of <code>GetSumCustomerPurchase</code>.
+                            <code>fp</code> is a function
+                            pointer that takes user's id, name, and purchase as parameters,
+                            evaluates a specific condition on it, and returns a non-negative
+                            number.
+                            For example, the following code snippet shows the example of
+                            the function pointed by <code>fp</code>, which returns the half of the
+                            purchase amount of the user whose name contains with "Gorilla".</td>
+                    </tr>
+                    </tbody>
+            </table>
+
             <div class="ui message">
-            <pre>int GetHalfAmountOfUserWhoseNameContainsGorilla(const char *id, const char *name, const int purchase) {
-   if (strstr(name, "Gorilla") != NULL)
-       return (purchase/2);
-   return 0;
+<pre>int GetHalfAmountOfUserWhoseNameContainsGorilla
+(const char *id, const char *name, const int purchase)
+{
+    if (strstr(name, "Gorilla") != NULL)
+        return (purchase/2);
+    return 0;
 }
 ...
 
 // call of GetSumCustomerPurchase() with the above function
 int value = GetSumCustomerPurchase(d, GetHalfAmountOfUserWhoseNameContainsGorilla);
 printf("Half the purchase amount of the users whose name contains Gorilla is %d\n", value);
-</pre></div></li>
-        </ul>
-    </ul>
+</pre>
+</div>
+
+</ul>
+</ul>
 
     <h2 class="ui dividing header">[Task 1] The <code>customer_manager</code> Array Implementation</h2>
 
@@ -766,9 +896,13 @@ $ ./testclient2</pre></div>
         <code>[TOKEN=2]</code>
     </div>
     <p>You need to strictly follow this format. Otherwise, TAs will not consider your late token usage.</p>
+
     <h2 class="ui dividing header">Grading</h2>
     <div class="ui message error">
         If your code cannot be compiled at <code>eelab5</code> with <code>gcc209</code>, <b>we cannot give you any points (0 point)</b>. Please double check before you submit.
+    </div>
+    <div class="ui message warning">
+        Please note that you might not get a full credit even if you pass the test with your <code>testclient</code>. TAs might use another <code>testclient</code> to test functionality and robustness of your implementation.
     </div>
 
     <p>We will grade your work on quality from the user's point of view and from the programmer's point of view. To encourage good coding practices, we will deduct points if <code>gcc209</code> generates warning messages.</p>
@@ -798,10 +932,6 @@ $ ./testclient2</pre></div>
     <p><strong>Comments</strong>: Each structure type definition and each structure field definition should have a comment that describes it.</p>
 
     <div class="ui message warning">
-        Please note that you might not get a full credit even if you pass the test with your <code>testclient</code>. TAs might use another <code>testclient</code> to test functionality and robustness of your implementation.
-    </div>
-
-    <div class="ui message warning">
         Comments should be written in English.
     </div>
 
@@ -815,8 +945,8 @@ $ ./testclient2</pre></div>
     <div class="ui bottom attached segment message-like-padding">
         <h4>Answer</h4>
         <p>You can use assert for your debugging. However, your code MUST still be able to return NULL to the caller without your assert code.</p>
-        <p>It is highly recommended to test if your code compiles without the assert macro (use <code>-D NDEBUG</code> flag when compile).
-            We will use <code>-D NDEBUG</code> option with <code>gcc209</code> for compiling and grading. Make sure to check your source code before submission.
+        <p>It is highly recommended to test if your code compiles without the assert macro (use <code>-DNDEBUG</code> flag when compile).
+            We will use <code>-DNDEBUG</code> option with <code>gcc209</code> for compiling and grading. Make sure to check your source code before submission.
             <b>If your code does not compile with <code>-DNDEBUG</code>, you will not get full credit and may get huge deduction in grading.</b></p>
     </div>
 
@@ -835,7 +965,7 @@ $ ./testclient2</pre></div>
     </div>
     <div class="ui bottom attached segment message-like-padding">
         <h4>Answer</h4>
-        <p>Yes, name or id can be a blank string. Therefore, you should consider it as normal case(not error case).</p>
+        <p>No, name or id can be a blank string. Therefore, you should consider it as normal case(not error case).</p>
     </div>
 
     <div class="ui top attached info message">
