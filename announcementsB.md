@@ -15,3 +15,4 @@ Please refer to the Piazza for asking questions about assignments or anything re
 TA's office hour (Q&A session) is scheduled to run from 8 to 9 pm on weekdays. <br>
 You can ask questions through piazza's QnA section, or join the zoom meeting room and ask in person. <br>
 <li class="toclevel-1"> <a href="https://us02web.zoom.us/j/89393882814?pwd=Rjkrck40ZU5CaVdGZ2pHem5YNi9rZz09">EE209B Q&A Zoom link</a><br>
+<li class="toclevel-1"> <a href="https://docs.google.com/spreadsheets/d/1sHbGvaYid7MgxCPHkWQqb7CI-r4X4gPIScZjlSGAP2g/edit?usp=sharing">EE209B Q&A Schedule</a><br>
