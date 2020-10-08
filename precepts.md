@@ -78,8 +78,8 @@ permalink: /precepts/
   </tr>
   <tr>
     <td class="tg-c3ow">Week 7</td>
-    <td class="tg-0pky">TBA</td>
     <!-- <td class="tg-0pky">Precept 6: Dynamic Array API</td> -->
+    <td class="tg-0pky"><a href="./05/precept_6.zip">Precept 6: Dynamic Array API </a></td> 
     <td class="tg-0pky">
     <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
     <a href="http://klms.kaist.ac.kr/course/view.php?id=118850">EE209B Course Page</a></td>
