@@ -14,7 +14,7 @@ header_pages:
 - announcementsB.md
 - precepts.md
 - assign.md
-# - exams.md
+- exams.md
 - policy.md
 
 paginate: 5
