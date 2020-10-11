@@ -158,8 +158,8 @@ permalink: /oldExams/
   <tr>
     <td class="tg-wp8o">2016</td>
     <td class="tg-wp8o">Fall</td>
-    <td class="tg-wp8o"><a href="./oldfinal/fall16exam_final_KAIST.pdf">Exam sheet</a></a></td>
-    <td class="tg-wp8o"><a href="./oldfinal/fall16exam_final_KAISTans.pdf">Solution</a></a></td>
+    <td class="tg-wp8o"><a href="./oldfinal/fall16exam_final_KAIST.pdf">Exam sheet</a></td>
+    <td class="tg-wp8o"><a href="./oldfinal/fall16exam_final_KAISTans.pdf">Solution</a></td>
   </tr>
   <tr>
     <td class="tg-wp8o">2017</td>
