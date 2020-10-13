@@ -17,7 +17,7 @@ permalink: /midterm/
 You should prepare three things before midterm exam.<br>
 1) Download "Honor Code Pledge" from KLMS, print and sign.<br>
 2) Prepare test environment setting (Check below detail information).<br>
-3) Prepare A4 papers for your answer sheet. DO NOT use reusable paper (e.g., 이면지).
+3) Prepare A4 papers for your answer sheet. DO NOT use reusable paper (e.g., 이면지).<br>
 4) Practice taking pictures and emailing directly from your phone, without using the computer
 <br>
 
