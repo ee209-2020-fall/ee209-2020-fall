@@ -7,7 +7,6 @@ permalink: /midterm/
 <h1>Guideline for Untact (non-face-to-face) Exam</h1>
 <h2 class="ui dividing header">Schedule</h2>
 <p>Wednesday (10/21) 9:00 AM - 11:45 AM </p>
-<p>Additional rules</p>
 <li><font color="#FF0000">Closed book</font></li>
 <li>No early answer sheet submission (<font color="#FF0000">You should stay Zoom until exam end</font>)</li>
 <li>If you have any question on Exam, please type your question in English via Zoom chatting. <font color="#FF0000">Korean does not allow</font>.</li>
@@ -42,7 +41,7 @@ Keep stay at Zoom and you should submit both 1) Honor Code Pledge and 2) Answer 
 
 <h2 class="ui dividing header">Detail information</h2>
 <h3>Environment setup</h3>
-<img src="exam/setup.jpg" width="900">
+<img src="exam/setup.jpg" width=900>
 
 <hr>
 <br>
