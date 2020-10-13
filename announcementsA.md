@@ -20,10 +20,6 @@ Please refer to the attendance status: <br>
 <li class="toclevel-1"> <a href="https://docs.google.com/spreadsheets/d/13diQlGu-VbPdLd9fkToArNd5HGmvbyoxYQrvva36IEc/edit?usp=sharing">EE209A Attendance Status</a><br>
 
 <hr><p></p>
-Please refere to the midterm exam Zoom link: <br>
-<li class="toclevel-1"> <a href = "https://docs.google.com/spreadsheets/d/188zLJHcK8_qC2N82E6ZH-GRXCtziiRR9F2XZ0F-Ce1s/edit?usp=sharing">EE209A Midterm Zoom Link</a><br>
-
-<hr><p></p>
 We will provide recorded class videos in case of your particular case (e.g., illness), not just absent. <br>
 If you need the class video, please contact TA Dongsuk Oh (ods1108@camelab.org). <br>
 Note that you cannot <font color="#FF0000">reshare</font> video content with any others.
