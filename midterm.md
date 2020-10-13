@@ -4,11 +4,7 @@ title: Mideterm
 permalink: /midterm/
 ---
 
-<div class="ui center aligned">
-    <h1 class="ui center aligned header">Guideline for Untact (non-face-to-face) Exam</h1>
-    <h4 class="ui center aligned header" id="timer">&nbsp;</h4>
-</div>
-
+<h1>Guideline for Untact (non-face-to-face) Exam</h1>
 <h2 class="ui dividing header">Schedule</h2>
 <p>Wednesday (10/21) 9:00 AM - 11:45 AM </p>
 <p>Additional rules</p>
