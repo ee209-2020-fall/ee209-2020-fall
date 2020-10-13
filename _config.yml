@@ -12,6 +12,7 @@ minima_reboot:
 header_pages:
 - announcementsA.md
 - announcementsB.md
+- midterm.md
 - precepts.md
 - assign.md
 - exams.md
