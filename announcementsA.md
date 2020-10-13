@@ -4,6 +4,12 @@ title: Announcements-209A
 permalink: /announcements-209A/
 ---
 
+<p2> Midterm Exam </p2>
+<div class="alert">
+Please refer to the Zoom link for midterm exam: <br>
+<li class="toclevel-1"> <a href="https://docs.google.com/spreadsheets/d/188zLJHcK8_qC2N82E6ZH-GRXCtziiRR9F2XZ0F-Ce1s/edit?usp=sharing">EE209A Midterm schedule</a><br>
+</div><br>
+
 Announcements will be posted at the KLMS course page:
 <li class="toclevel-1"> <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
 
@@ -19,15 +25,12 @@ Please refer to the TA's office hour (Q&A session): <br>
 Please refer to the attendance status: <br>
 <li class="toclevel-1"> <a href="https://docs.google.com/spreadsheets/d/13diQlGu-VbPdLd9fkToArNd5HGmvbyoxYQrvva36IEc/edit?usp=sharing">EE209A Attendance Status</a><br>
 
-<!--hr><p></p>
-You can check your attendance (if you want to claim about attendance, please contact TA Dongsuk Oh):
-<li class="toclevel-1"> <a href="https://docs.google.com/spreadsheets/d/13diQlGu-VbPdLd9fkToArNd5HGmvbyoxYQrvva36IEc/edit?usp=sharing">EE209A attendance</a><br-->
-
 <hr><p></p>
 We will provide recorded class videos in case of your particular case (e.g., illness), not just absent. <br>
 If you need the class video, please contact TA Dongsuk Oh (ods1108@camelab.org). <br>
 Note that you cannot <font color="#FF0000">reshare</font> video content with any others.
 
 <hr><p></p>
+
 <br>
 <br>
