@@ -41,7 +41,8 @@ Keep stay at Zoom and you should submit both 1) Honor Code Pledge and 2) Answer 
 
 <h2 class="ui dividing header">Detail information</h2>
 <h3>Environment setup</h3>
-<img src="../exam/setup.jpg" width=900>
+<img src="../exam/setup.jpg" width=900><br>
+credit: Professor Songmin Kim :)
 
 <hr>
 <br>
