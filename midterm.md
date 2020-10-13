@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mideterm
+title: Midterm
 permalink: /midterm/
 ---
 
