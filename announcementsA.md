@@ -4,8 +4,6 @@ title: Announcements-209A
 permalink: /announcements-209A/
 ---
 
-<!-- <p2> Midterm Exam </p2> -->
-
 Announcements will be posted at the KLMS course page:
 <li class="toclevel-1"> <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
 
