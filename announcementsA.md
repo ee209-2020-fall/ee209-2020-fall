@@ -4,11 +4,7 @@ title: Announcements-209A
 permalink: /announcements-209A/
 ---
 
-<p2> Midterm Exam </p2>
-<div class="alert">
-Please refer to the Zoom link for midterm exam: <br>
-<li class="toclevel-1"> <a href="https://docs.google.com/spreadsheets/d/188zLJHcK8_qC2N82E6ZH-GRXCtziiRR9F2XZ0F-Ce1s/edit?usp=sharing">EE209A Midterm schedule</a><br>
-</div><br>
+<!-- <p2> Midterm Exam </p2> -->
 
 Announcements will be posted at the KLMS course page:
 <li class="toclevel-1"> <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
