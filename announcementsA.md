@@ -9,7 +9,7 @@ Announcements will be posted at the KLMS course page:
 
 <hr><p></p>
 Please refer to the Classum for asking questions about assignments or anything related to EE209A:
-<li class="toclevel-1"> <a href="http://www.classum.com/exgmmy">EE209A Classum link</a><br>
+<li class="toclevel-1"> <a href="http://www.classum.com/exgmmy">EE209A Classum Link</a><br>
 
 <hr><p></p>
 Please refer to the TA's office hour (Q&A session): <br>
@@ -21,7 +21,7 @@ Please refer to the attendance status: <br>
 
 <hr><p></p>
 Please refere to the midterm exam Zoom link: <br>
-<li class="toclevel-1"> <a href = "https://docs.google.com/spreadsheets/d/188zLJHcK8_qC2N82E6ZH-GRXCtziiRR9F2XZ0F-Ce1s/edit?usp=sharing">Zoom link</a><br>
+<li class="toclevel-1"> <a href = "https://docs.google.com/spreadsheets/d/188zLJHcK8_qC2N82E6ZH-GRXCtziiRR9F2XZ0F-Ce1s/edit?usp=sharing">EE209A Midterm Zoom Link</a><br>
 
 <hr><p></p>
 We will provide recorded class videos in case of your particular case (e.g., illness), not just absent. <br>
