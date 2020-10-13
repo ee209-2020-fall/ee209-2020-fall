@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Announcements-209A
+title: 209A
 permalink: /announcements-209A/
 ---
 

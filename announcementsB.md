@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Announcements-209B
+title: 209B
 permalink: /announcements-209B/
 ---
 
