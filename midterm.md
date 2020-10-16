@@ -46,7 +46,7 @@ Keep stay at Zoom and you should submit both 1) Honor Code Pledge and 2) Answer 
 credit: Professor Songmin Kim :)
 <hr>
 <h3>Email setting on mobile phone</h3>
-NOTE) <font color="#FF0000">Kaist email system is not easy to attach pictures</font>. <br>
+NOTE) <font color="#FF0000">Kaist email system is not easy to attach pictures</font>.
 So please download alternative email application on mobile phone such as Gmail and Naver email.<br>
 1) KAIST email setting <br>
    Settings (환경설정) => Auto-Fowarding (자동전달) <br>
