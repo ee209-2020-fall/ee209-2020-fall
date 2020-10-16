@@ -16,9 +16,9 @@ permalink: /midterm/
 <h3>1. Preparation : Before midterm exam</h3>
 You should prepare three things before midterm exam.<br>
 1) Download "Honor Code Pledge" from KLMS, print and sign.<br>
-2) Prepare test environment setting (Check below detail information).<br>
+2) Prepare test environment setting (Check below for detail information).<br>
 3) Prepare A4 papers for your answer sheet. DO NOT use reusable paper (e.g., 이면지).<br>
-4) Practice taking pictures and emailing directly from your phone, without using the computer.
+4) Practice taking pictures and emailing directly from your phone, without using the computer (Check below for detail information).
 <br>
 
 <h3>2. Exam</h3>
@@ -44,6 +44,16 @@ Keep stay at Zoom and you should submit both 1) Honor Code Pledge and 2) Answer 
 <h3>Environment setup</h3>
 <img src="../exam/setup.jpg" width=900><br>
 credit: Professor Songmin Kim :)
+<hr>
+<h3>Email setting on mobile phone</h3>
+NOTE) <font color="#FF0000">Kaist email system is not easy to attach pictures</font>. <br>
+So please download alternative email application on mobile phone such as Gmail and Naver email.<br>
+1) Kaist email setting <br>
+   Settings (환경설정) => Auto-Fowarding (자동전달) <br>
+   <img src="../exam/email1.png" width=900><br>
+2) Google email setting <br>
+   Settings (환경설정) => Forwarding and POP/IMAP <br>
+   <img src="../exam/email2.png" width=900><br>
 
 <hr>
 <br>
