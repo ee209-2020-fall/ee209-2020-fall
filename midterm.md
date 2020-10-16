@@ -48,7 +48,7 @@ credit: Professor Songmin Kim :)
 <h3>Email setting on mobile phone</h3>
 NOTE) <font color="#FF0000">Kaist email system is not easy to attach pictures</font>. <br>
 So please download alternative email application on mobile phone such as Gmail and Naver email.<br>
-1) Kaist email setting <br>
+1) KAIST email setting <br>
    Settings (환경설정) => Auto-Fowarding (자동전달) <br>
    <img src="../exam/email1.png" width=500><br>
 2) Google email setting <br>
