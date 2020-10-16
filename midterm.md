@@ -51,6 +51,7 @@ So please download alternative email application on mobile phone such as Gmail a
 1) KAIST email setting <br>
    Settings (환경설정) => Auto-Fowarding (자동전달) <br>
    <img src="../exam/email1.png" width=500><br>
+   <br>
 2) Google email setting <br>
    Settings (환경설정) => Forwarding and POP/IMAP <br>
    <img src="../exam/email2.png" width=500><br>
