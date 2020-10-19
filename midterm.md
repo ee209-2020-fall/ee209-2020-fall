@@ -57,11 +57,11 @@ NOTE) <font color="#FF0000">Kaist email system is not easy to attach pictures</f
 So please download alternative email application on mobile phone such as Gmail and Naver email.<br>
 1) KAIST email setting <br>
    Settings (환경설정) => Auto-Fowarding (자동전달) <br>
-   <img src="../exam/email1.png" width=500><br>
+   <img src="../exam/email1.png" width=600><br>
    <br>
 2) Google email setting <br>
    Settings (환경설정) => Forwarding and POP/IMAP <br>
-   <img src="../exam/email2.png" width=500><br>
+   <img src="../exam/email2.png" width=400><br>
 
 <hr>
 <br>
