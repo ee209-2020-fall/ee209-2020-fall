@@ -24,11 +24,12 @@ You should prepare four things before midterm exam.<br>
 <h3>2. Exam</h3>
 1) Donwnload the exam file (pdf form) from KLMS (It will be locked with a password). <br>
 2) Setup the test environment. <br>
-3) After setting your test environment, enter your TA's Zoom link until 8:50 AM. <br>
+3) After setting your test environment, enter your TA's Zoom link until 8:50 AM. 
    <li>TAs will open the zoom meeting room until 8:40 AM.</li>
    <li>We assigned the test TA for each. Please check the appopriate Zoom link from <a href="https://docs.google.com/spreadsheets/d/188zLJHcK8_qC2N82E6ZH-GRXCtziiRR9F2XZ0F-Ce1s/edit?usp=sharing">EE209A</a>, <a href="https://docs.google.com/spreadsheets/d/1k5bjKfVW7-JoOXM2feHgoXcOYzUXDodpMrPbImDG3Yc/edit?usp=sharing">EE209B</a></li>
 4) When the test is started, TA will give you a exam file's password. 
-4) During the test, do not use keyboard except asking TA for a question. <font color="#FF0000">Otherwise, ONLY mouse is allowed during exam.</font>
+5) During the test, do not use keyboard except asking TA for a question. <font color="#FF0000">Otherwise, ONLY mouse is allowed during exam.</font>
+6) All exam procedure will be recorded through TA's account.
 <br>
 
 <h3>3. Submission guideline (from 11:45 AM - 11:50 AM)</h3>
