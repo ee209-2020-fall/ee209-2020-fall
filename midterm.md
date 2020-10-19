@@ -57,10 +57,10 @@ You should setup both front-side and
 <img src="../exam/setting1.png" width= 450><br>
 <h4>2) Side view camera (옆면)</h4>
 <img src="../exam/setting2.png" width=450><br>
-Note that Your side view camera should include 1) labtop, 2) hands, and 3) face.
+Note that Your side view camera should include <font color="#FF0000">1) labtop, 2) hands, and 3) face.</font>
 <hr>
 
-<h3>Email setting on mobile phone</h3>
+<!-- <h3>Email setting on mobile phone</h3>
 NOTE) <font color="#FF0000">Kaist email system is not easy to attach pictures</font>.
 So please download alternative email application on mobile phone such as Gmail and Naver email.<br>
 1) KAIST email setting <br>
@@ -69,8 +69,8 @@ So please download alternative email application on mobile phone such as Gmail a
    <br>
 2) Google email setting <br>
    Settings (환경설정) => Forwarding and POP/IMAP <br>
-   <img src="../exam/email2.png" width=400><br>
+   <img src="../exam/email2.png" width=400><br> -->
 
-<hr>
+<!-- <hr> -->
 <br>
 <br>
