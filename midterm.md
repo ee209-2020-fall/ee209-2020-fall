@@ -49,6 +49,8 @@ Students need to prepare both a smartphone which has a camera and a laptop camer
 Please refer to the following picture. <br>
 <img src="../exam/setup_ver2.jpg" width=900><br>
 credit: Professor Songmin Kim :)
+<img src="../exam/setting1.png" width= 450>
+<img src="../exam/setting2.png" width=450><br>
 <hr>
 <h3>Email setting on mobile phone</h3>
 NOTE) <font color="#FF0000">Kaist email system is not easy to attach pictures</font>.
