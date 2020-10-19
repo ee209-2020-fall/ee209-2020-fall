@@ -44,14 +44,22 @@ Keep stay at Zoom and you should submit both 1) Honor Code Pledge and 2) Answer 
 <hr><br>
 
 <h2 class="ui dividing header">Detail information</h2>
+
 <h3>Environment setup</h3>
 Students need to prepare both a smartphone which has a camera and a laptop camera (or webcam).<br>
 Please refer to the following picture. <br>
 <img src="../exam/setup_ver2.jpg" width=900><br>
 credit: Professor Songmin Kim :) <br>
-<img src="../exam/setting1.png" width= 450>
+
+<h3>Camera setup</h3>
+You should setup both front-side and
+<h4>1) Front view camera (정면)</h4>
+<img src="../exam/setting1.png" width= 450><br>
+<h4>2) Side view camera (옆면)</h4>
 <img src="../exam/setting2.png" width=450><br>
+Note that Your side view camera should include 1) labtop, 2) hands, and 3) face.
 <hr>
+
 <h3>Email setting on mobile phone</h3>
 NOTE) <font color="#FF0000">Kaist email system is not easy to attach pictures</font>.
 So please download alternative email application on mobile phone such as Gmail and Naver email.<br>
