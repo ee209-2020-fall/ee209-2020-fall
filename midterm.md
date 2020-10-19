@@ -22,11 +22,13 @@ You should prepare three things before midterm exam.<br>
 <br>
 
 <h3>2. Exam</h3>
-1) Setup the test environment <br>
-2) Enter your TA's Zoom link <br>
+1) Donwnload the exam sheet file (pdf form) from KLMS (It will be locked with a password) <br>
+2) Setup the test environment <br>
+3) Enter your TA's Zoom link until 8:50 AM. <br>
+   <li>TAs will open the zoom meeting room until 8:40 AM.</li>
    <li>We assigned the test TA for each. Please check the appopriate Zoom link from <a href="https://docs.google.com/spreadsheets/d/188zLJHcK8_qC2N82E6ZH-GRXCtziiRR9F2XZ0F-Ce1s/edit?usp=sharing">EE209A</a>, <a href="https://docs.google.com/spreadsheets/d/1k5bjKfVW7-JoOXM2feHgoXcOYzUXDodpMrPbImDG3Yc/edit?usp=sharing">EE209B</a></li>
-3) Donwnload exam sheet from KLMS (It will be ready at 9:00 AM) <br>
-4) When the test is started, do not use keyboard. <font color="#FF0000">ONLY mouse is allowed during exam.</font>
+4) When the test is started, TA will give you a exam file's password. 
+4) When the test is started, do not use keyboard except asking TA for a question. <font color="#FF0000">Otherwise, ONLY mouse is allowed during exam.</font>
 <br>
 
 <h3>3. Submission guideline (from 11:45 AM - 11:50 AM)</h3>
@@ -41,8 +43,8 @@ Keep stay at Zoom and you should submit both 1) Honor Code Pledge and 2) Answer 
 <hr><br>
 
 <h2 class="ui dividing header">Detail information</h2>
-You need to prepare both a smartphone which has a camera and a laptop camera (or webcam).<br>
 <h3>Environment setup</h3>
+Students need to prepare both a smartphone which has a camera and a laptop camera (or webcam).<br>
 <img src="../exam/setup_ver2.jpg" width=900><br>
 credit: Professor Songmin Kim :)
 <hr>
