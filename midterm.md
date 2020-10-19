@@ -41,8 +41,9 @@ Keep stay at Zoom and you should submit both 1) Honor Code Pledge and 2) Answer 
 <hr><br>
 
 <h2 class="ui dividing header">Detail information</h2>
+You need to prepare both a smartphone which has a camera and a laptop camera (or webcam).<br>
 <h3>Environment setup</h3>
-<img src="../exam/setup.jpg" width=900><br>
+<img src="../exam/setup_ver2.jpg" width=900><br>
 credit: Professor Songmin Kim :)
 <hr>
 <h3>Email setting on mobile phone</h3>
