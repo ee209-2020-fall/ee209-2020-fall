@@ -48,7 +48,7 @@ Keep stay at Zoom and you should submit both 1) Honor Code Pledge and 2) Answer 
 Students need to prepare both a smartphone which has a camera and a laptop camera (or webcam).<br>
 Please refer to the following picture. <br>
 <img src="../exam/setup_ver2.jpg" width=900><br>
-credit: Professor Songmin Kim :)
+credit: Professor Songmin Kim :) <br>
 <img src="../exam/setting1.png" width= 450>
 <img src="../exam/setting2.png" width=450><br>
 <hr>
