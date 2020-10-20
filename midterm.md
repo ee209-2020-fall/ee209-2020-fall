@@ -10,7 +10,8 @@ permalink: /midterm/
 <li><font color="#FF0000">Closed book</font></li>
 <li>No early answer sheet submission (<font color="#FF0000">You should stay Zoom until exam end</font>)</li>
 <li>If you have any question on Exam, please type your question in English via Zoom chatting. <font color="#FF0000">Korean does not allow</font>.</li>
-<hr>
+
+<br><hr>
 
 <h2 class="ui dividing header">Procedure (Please Follow Step by Step)</h2>
 <h3>1. Preparation : Before midterm exam</h3>
@@ -31,7 +32,7 @@ NOTE) All exam procedure will be <font color="#FF0000">recorded</font> through T
 3) Donwnload the exam file (pdf form) from KLMS.
    <li>Exam sheet will be available from 9:00 AM.</li>
    <li>It will be locked with a password.</li>
-   <li>The password is given by your test TA when you enter the Zoom link.<br>
+   <li>The password is given by your test TA when you enter the Zoom link.</li>
 4) During the test, do not use keyboard except asking TA for a question.
    <li><font color="#FF0000">Otherwise, ONLY mouse is allowed during exam.</font></li>
 
