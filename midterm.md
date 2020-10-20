@@ -19,26 +19,32 @@ You should prepare four things before midterm exam.<br>
 2) Prepare test environment setting (Check below for detail information).<br>
 3) Prepare A4 papers for your answer sheet. DO NOT use reusable paper (e.g., 이면지).<br>
 4) Practice taking pictures and emailing directly from your phone, without using the computer (Check below for detail information).
-<br>
+<br><hr>
 
-<h3>2. Exam</h3>
-1) Donwnload the exam file (pdf form) from KLMS (It will be locked with a password). <br>
-2) Setup the test environment. <br>
-3) After setting your test environment, enter your TA's Zoom link until 8:50 AM. <br>
-   <li>TAs will open the zoom meeting room until 8:40 AM.</li>
+<h3>2. Exam (You should enter the Zoom link until 8:50 AM)</h3>
+NOTE) All exam procedure will be <font color="#FF0000">recorded</font> through TA's account.
+1) Enter your TA's Zoom link. <br>
+   <li>TAs will open the Zoom meeting room from 8:40 AM.</li>
    <li>We assigned the test TA for each. Please check the appopriate Zoom link from <a href="https://docs.google.com/spreadsheets/d/188zLJHcK8_qC2N82E6ZH-GRXCtziiRR9F2XZ0F-Ce1s/edit?usp=sharing">EE209A</a>, <a href="https://docs.google.com/spreadsheets/d/1k5bjKfVW7-JoOXM2feHgoXcOYzUXDodpMrPbImDG3Yc/edit?usp=sharing">EE209B</a></li>
-4) When the test is started, TA will give you a exam file's password. <br>
-5) During the test, do not use keyboard except asking TA for a question. <font color="#FF0000">Otherwise, ONLY mouse is allowed during exam.</font> <br>
-6) All exam procedure will be recorded through TA's account. <br>
-<br>
+2) Setup the test environment.
+   <li>As explained in the detail information, you should setup both laptop camera and smartphone.</li>
+3) Donwnload the exam file (pdf form) from KLMS.
+   <li>Exam sheet will be available from 9:00 AM.</li>
+   <li>It will be locked with a password.</li>
+   <li>The password is given by your test TA when you enter the Zoom link.<br>
+4) During the test, do not use keyboard except asking TA for a question.
+   <li><font color="#FF0000">Otherwise, ONLY mouse is allowed during exam.</font></li>
+
+<br><hr>
 
 <h3>3. Submission guideline (from 11:45 AM - 11:50 AM)</h3>
 Keep stay at Zoom and you should submit both 1) Honor Code Pledge and 2) Answer sheets.<br>
 1) Take a photo of both Honor Code Pledge and Answer sheets. <br>
-2) Submit all files via email by using your smartphone
-<li> Send email to your test TA. AGAIN, smartphone is only allowed for submission. <br>(For example, if you entered TA Miryeong Kwon's Zoom link, then you should send email to Miryeong Kwon)</li>
-<li> Email title should be [EE209 Midterm] StudentID Name <br>
-(Example: [EE209 Midterm] 20195399 MiryeongKwon)</li>
+2) Submit all files via email by using your <font color="#FF0000">smartphone</font>
+<li> Send email to your test TA. AGAIN, smartphone is only allowed for submission.</li>
+<ul> Example: if you entered TA Miryeong Kwon's Zoom link, then you should send email to Miryeong Kwon)</ul>
+<li> Email title should be <font color="#FF0000">[EE209 Midterm] StudentID Name</font></li>
+<ul> Example: [EE209 Midterm] 20195399 MiryeongKwon)</ul>
 <li>When TA says "Test is end", then you can exit the Zoom</li>
 
 <hr><br>
