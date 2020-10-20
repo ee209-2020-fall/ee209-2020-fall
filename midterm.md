@@ -40,7 +40,7 @@ NOTE) All exam procedure will be <font color="#FF0000">recorded</font> through T
    <br>
 4) During the test, do not use keyboard except asking TA for a question.
    <li><font color="#FF0000">Otherwise, ONLY mouse is allowed during exam.</font></li>
-   <li>You can write the answer sheets in Korean, but you should clarify some works in English to avoid miscommunication.</li>
+   <li>You can write the answer sheets in Korean, but you should clarify some words in English to avoid miscommunication.</li>
 
 <br>
 <hr>
