@@ -29,12 +29,15 @@ NOTE) All exam procedure will be <font color="#FF0000">recorded</font> through T
 1) Enter your TA's Zoom link. <br>
    <li>TAs will open the Zoom meeting room from 8:40 AM.</li>
    <li>We assigned the test TA for each. Please check the appopriate Zoom link from <a href="https://docs.google.com/spreadsheets/d/188zLJHcK8_qC2N82E6ZH-GRXCtziiRR9F2XZ0F-Ce1s/edit?usp=sharing">EE209A</a>, <a href="https://docs.google.com/spreadsheets/d/1k5bjKfVW7-JoOXM2feHgoXcOYzUXDodpMrPbImDG3Yc/edit?usp=sharing">EE209B</a></li>
+   <br>
 2) Setup the test environment.
    <li>As explained in the detail information, you should setup both laptop camera and smartphone.</li>
+   <br>
 3) Donwnload the exam file (pdf form) from KLMS.
    <li>Exam sheet will be available from 9:00 AM.</li>
    <li>It will be locked with a password.</li>
    <li>The password is given by your test TA when you enter the Zoom link.</li>
+   <br>
 4) During the test, do not use keyboard except asking TA for a question.
    <li><font color="#FF0000">Otherwise, ONLY mouse is allowed during exam.</font></li>
 
