@@ -28,7 +28,7 @@ You should prepare four things before midterm exam.<br>
 NOTE) All exam procedure will be <font color="#FF0000">recorded</font> through TA's account.
 1) Enter your TA's Zoom link. <br>
    <li>TAs will open the Zoom meeting room from 8:40 AM.</li>
-   <li>We assigned the test TA for each. Please check the appopriate Zoom link from <a href="https://docs.google.com/spreadsheets/d/188zLJHcK8_qC2N82E6ZH-GRXCtziiRR9F2XZ0F-Ce1s/edit?usp=sharing">EE209A</a>, <a href="https://docs.google.com/spreadsheets/d/1k5bjKfVW7-JoOXM2feHgoXcOYzUXDodpMrPbImDG3Yc/edit?usp=sharing">EE209B</a></li>
+   <li>We assigned the test TA for each. Please check the appopriate Zoom link from <a href="https://docs.google.com/spreadsheets/d/188zLJHcK8_qC2N82E6ZH-GRXCtziiRR9F2XZ0F-Ce1s/edit?usp=sharing">EE209A</a>, <a href="https://docs.google.com/spreadsheets/d/1gLpgvA-eAWPOBh9yXSTZ-tU4U_r0v0pNcB5AiWWd7SY/edit?usp=sharing">EE209B</a></li>
    <br>
 2) Setup the test environment.
    <li>As explained in the detail information, you should setup both laptop camera and smartphone.</li>
