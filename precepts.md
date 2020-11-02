@@ -106,7 +106,7 @@ permalink: /precepts/
   </tr>
   <tr>
     <td class="tg-c3ow">Week 11</td>
-    <td class="tg-0pky" colspan="2">TBA</td>
+    <td class="tg-0pky" colspan="2">No precept</td>
   </tr>
   <tr>
     <td class="tg-c3ow">Week 12</td>
