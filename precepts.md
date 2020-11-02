@@ -98,15 +98,15 @@ permalink: /precepts/
   </tr>
   <tr>
     <td class="tg-c3ow">Week 10</td>
-    <td class="tg-0pky">TBA</td>
-    <!-- <td class="tg-0pky">Precept 8: Introduction to IA-32 Assembly Language Programming II</td> -->
+    <!-- <td class="tg-0pky">TBA</td> -->
+    <td class="tg-0pky"><a href="./08/precept_8.zip">Precept 8: Introduction to IA-32 Assembly Language Programming II</a></td> 
     <td class="tg-0pky">
     <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
     <a href="http://klms.kaist.ac.kr/course/view.php?id=118850">EE209B Course Page</a></td>
   </tr>
   <tr>
     <td class="tg-c3ow">Week 11</td>
-    <td class="tg-0pky" colspan="2">No precept</td>
+    <td class="tg-0pky" colspan="2">TBA</td>
   </tr>
   <tr>
     <td class="tg-c3ow">Week 12</td>
