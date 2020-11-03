@@ -17,7 +17,7 @@ grade. Some assignments provide extra credit beyond your total grade.
 <ul>
 <li> Assignment 1: <a href="../assignment/assignment1/wordcounting.html"> A Word Counting Program</a> (due: 11:59 PM on 9/18 (Friday)) </li>
 <li> Assignment 2: <a href="../assignment/assignment2/stringfile.html"> String Manipulation</a>  (due: 11:59 PM on 10/08 (Thursday)) </li>
-<li> Assignment 3: <a href="../assignment/assignment3/database.html"> Customer Management Table Assignment</a> (due: 11:59 PM on 11/06 (Friday)) </li>
+<li> Assignment 3: <a href="../assignment/assignment3/database.html"> Customer Management Table Assignment</a> (due: 11:59 PM on 11/08 (Sunday)) </li>
 <li> Assignment 4: TBA (due: 11:59 PM on 11/27 (Friday)) </li>
 <li> Assignment 5: TBA (due: 11:59 PM on 12/22 (Tuesday)) </li>
 </ul>
