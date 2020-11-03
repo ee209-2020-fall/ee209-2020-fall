@@ -90,16 +90,16 @@ permalink: /precepts/
   </tr>
   <tr>
     <td class="tg-c3ow">Week 9</td>
-    <td class="tg-0pky">TBA</td>
-    <!-- <td class="tg-0pky">Precept 7: Introduction to IA-32 Assembly Language Programming, Assignment 3</td> -->
+    <!-- <td class="tg-0pky">TBA</td> -->
+    <td class="tg-0pky"><a href="./07/precept_7.zip">Precept 7: Introduction to IA-32 Assembly Language Programming, Assignment 3</a></td> 
     <td class="tg-0pky">
     <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
     <a href="http://klms.kaist.ac.kr/course/view.php?id=118850">EE209B Course Page</a></td>
   </tr>
   <tr>
     <td class="tg-c3ow">Week 10</td>
-    <td class="tg-0pky">TBA</td>
-    <!-- <td class="tg-0pky">Precept 8: Introduction to IA-32 Assembly Language Programming II</td> -->
+    <!-- <td class="tg-0pky">TBA</td> -->
+    <td class="tg-0pky"><a href="./08/precept_8.zip">Precept 8: Introduction to IA-32 Assembly Language Programming II</a></td> 
     <td class="tg-0pky">
     <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
     <a href="http://klms.kaist.ac.kr/course/view.php?id=118850">EE209B Course Page</a></td>
