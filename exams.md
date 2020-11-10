@@ -93,6 +93,12 @@ permalink: /oldExams/
     <td class="tg-0lax"><a href="../oldmidterm/spring18c++sample_KAIST.pdf">C++ Sample</a></td>
     <td class="tg-0lax"><a href="../oldmidterm/spring18c++sample_KAISTans.pdf">Solution</a></td>
   </tr>
+  <tr>
+    <td class="tg-0lax">2020</td>
+    <td class="tg-0lax">Fall</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"><a href="../oldmidterm/fall20exam_KAISTans.pdf">Solution</a></td>
+  </tr>
 </tbody>
 </table>
 
