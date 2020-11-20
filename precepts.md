@@ -110,8 +110,8 @@ permalink: /precepts/
   </tr>
   <tr>
     <td class="tg-c3ow">Week 12</td>
-    <td class="tg-0pky">TBA</td>
-    <!-- <td class="tg-0pky">Precept 9: Makefile and Performance</td> -->
+    <!-- <td class="tg-0pky">TBA</td> -->
+    <td class="tg-0pky"><a href="./09/precept_9.zip">Precept 9: Makefile and Performance</a></td>
     <td class="tg-0pky">
     <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
     <a href="http://klms.kaist.ac.kr/course/view.php?id=118850">EE209B Course Page</a></td>
@@ -119,7 +119,7 @@ permalink: /precepts/
   <tr>
     <td class="tg-c3ow">Week 13</td>
     <td class="tg-0pky">TBA</td>
-    <!-- <td class="tg-0pky">Precept 11: Ish Basic Design & Process Management</td> -->
+    <!-- <td class="tg-0pky"><a href="./11/precept_11.zip">Precept 11: Ish Basic Design & Process Management</a></td> -->
     <td class="tg-0pky">
     <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
     <a href="http://klms.kaist.ac.kr/course/view.php?id=118850">EE209B Course Page</a></td>
@@ -127,7 +127,7 @@ permalink: /precepts/
   <tr>
     <td class="tg-c3ow">Week 14</td>
     <td class="tg-0pky">TBA</td>
-    <!-- <td class="tg-0pky">Precept 12: Ish dup2() & Signal Handling</td> -->
+    <!-- <td class="tg-0pky"><a href="./12/precept_12.zip">Precept 12: Ish dup2() & Signal Handling</a></td> -->
     <td class="tg-0pky">
     <a href="http://klms.kaist.ac.kr/course/view.php?id=118849">EE209A Course Page</a><br>
     <a href="http://klms.kaist.ac.kr/course/view.php?id=118850">EE209B Course Page</a></td>
