@@ -62,7 +62,7 @@
     <h2 class="ui dividing header">Your Task</h2>
 
     <p>Your task in this assignment is to create a program
-        named <code>ish</code>. Your program should be a minimal but
+        named <a style="font-size:larger"><code>ish</code></a>. Your program should be a minimal but
         realistic interactive
         Unix shell. A <a href="./supplementary.html">Supplementary
             Information</a> page lists detailed implementation requirements and
@@ -234,10 +234,34 @@
         <li>If the standard output stream is redirected to a file that does not exist, then your program should create it. If the standard output stream is redirected to a file that already exists, then your program should destroy the file's contents and rewrite the file from scratch. Your program should set the permissions of the file to 0600.</li>
     </ul>
 
-    <h2>Extra Credit 2 (extra 20% of your earned score including the extra credit1) </h2>
+    <h2>Extra Credit 2 (extra 10% of of the full score of this assignment) </h2>
+    <ul>
+        <li>To earn this extra credit, your program should implement shell built-in command <code>alias</code>(provided in bash as well). The <code>alias</code> allows users to customize shortcuts to lengthy shell commands, following the syntax below:</li>
+        <div class="ui message">
+            <pre>alias AliasName='command -arguments'</pre>
+        </div>
+        <li>Where <code>AliasName</code> can be used in place of <code>command -arguments</code>. For example, <code>ll</code> can be an alias for <code>ls -alF</code> (try <code>ll</code> and <code>ls -alF</code> in bash</li>
+        <div class="ui message">
+            <pre>alias ll='ls -alF'</pre>
+        </div>
+        <li>The <code>alias</code> can be defined two ways: (i) In <code>.ishrc</code> file, which is read from the HOME directory when ish starts, and (ii) in the command line prompt. Note that the command on the right-hand side MUST have a program name (eg, <code>ls</code>, <code>echo</code>)as iths frist argument.
+        </li>
+        <li>If <code>alias</code> is used alone without arguments, it prints the list of the all aliased defined in (i) and (ii).</li>
+        <div class="ui message">
+            <pre>alias l='ls -CF'</pre>
+            <pre>alias la='ls -A'</pre>
+            <pre>alias ll='ls -alF'</pre>
+            <pre>alias ls='ls --color=auto'</pre>
+        </div>
+        <li>It doesn't applied at <code>sampleish</code>.</li>
+    </ul>
 
-    <p> If you do this assignment on your own without a partner, you will receive extra credit which is worth 20% of (your basic score + extra credit1). Here is an example. If your score is 50 and you got extra credit 1, your earned score is 50 + 20 = 70.  If you worked alone, you will receive 20% x 70 = 14 additional points as extra credit 2. So, your total score will be 84.(maximum score: 144) </p>
+    <h2>Extra Credit 3 (extra 20% of your earned score including the extra credit1 and extra credit2) </h2>
+
+    <p> If you do this assignment on your own without a partner, you will receive extra credit which is worth 20% of (your basic score + extra credit1). Here is an example. If your score is 50 and you got extra credit 1, your earned score is 50 + 20 = 70.  If you worked alone, you will receive 20% x 70 = 14 additional points as extra credit 3. So, your total score will be 84.(maximum score: 156=((100+20+10)*1.2)) </p>
     <h2><p style="color:#FF0000">This assignment's Extra credit will be caculated over 100 unlike other assignment</color></p></h2>
+
+    
     <h2 class="ui dividing header">Testing</h2>
 
     <p>Test your program by creating multiple files containing lines which your program should interpret, repeatedly copying each to the .ishrc file in your HOME directory, and restarting your program. The file <code><a href="./src/ishrc.txt">.ishrc</a></code> contains a sequence of commands that can serve as a minimal test case. You should develop <em>many</em> more test files.</p>
