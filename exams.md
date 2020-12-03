@@ -104,7 +104,8 @@ permalink: /oldExams/
 
 </body>
 
-<!-- <body>
+<br>
+<br>
 <h2> EE209 Old Final Exams </h2>
 
 <style type="text/css">
@@ -177,6 +178,4 @@ permalink: /oldExams/
 </table>
 <br>
 <br>
-
-</body> -->
 </html>
