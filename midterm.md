@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Midterm
-permalink: /midterm/
+title: FinalExam
+permalink: /final/
 ---
 
 <h1>Guideline for Untact (non-face-to-face) Exam</h1>
 <h2 class="ui dividing header">Schedule</h2>
-<p>Wednesday (10/21) 9:00 AM - 11:45 AM </p>
+<p>Wednesday (12/16) 9:00 AM - 11:45 AM </p>
 <li><font color="#FF0000">Closed book</font></li>
 <li>No early answer sheet submission (<font color="#FF0000">You should stay Zoom until exam end</font>)</li>
 <li>If you have any question on Exam, please type your question in English via Zoom chatting. <font color="#FF0000">Korean does not allow</font>.</li>
@@ -15,8 +15,8 @@ permalink: /midterm/
 <hr>
 
 <h2 class="ui dividing header">Procedure (Please Follow Step by Step)</h2>
-<h3>1. Preparation : Before midterm exam</h3>
-You should prepare four things before midterm exam.<br>
+<h3>1. Preparation : Before final exam</h3>
+You should prepare four things before final exam.<br>
 1) Download "Honor Code Pledge" from KLMS, print and sign.<br>
 2) Prepare test environment setting (Check below for detail information).<br>
 3) Prepare A4 papers for your answer sheet. DO NOT use reusable paper (e.g., 이면지).<br>
@@ -51,8 +51,8 @@ Keep stay at Zoom and you should submit both 1) Honor Code Pledge and 2) Answer 
 2) Submit all files via email by using your <font color="#FF0000">smartphone</font>
 <li> Send email to your test TA. AGAIN, smartphone is only allowed for submission.</li>
 <ul> Example: if you entered TA Miryeong Kwon's Zoom link, then you should send email to Miryeong Kwon)</ul>
-<li> Email title should be <font color="#FF0000">[EE209 Midterm] StudentID Name</font></li>
-<ul> Example: [EE209 Midterm] 20195399 MiryeongKwon)</ul>
+<li> Email title should be <font color="#FF0000">[EE209 Final] StudentID Name</font></li>
+<ul> Example: [EE209 Final] 20195399 MiryeongKwon)</ul>
 <li>When TA says "Test is end", then you can exit the Zoom</li>
 
 <br>
