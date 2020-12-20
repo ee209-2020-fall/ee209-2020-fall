@@ -174,6 +174,12 @@ permalink: /oldExams/
     <td class="tg-wp8o"><a href="../oldfinal/spring17exam_final_KAIST.pdf">Exam sheet</a></td>
     <td class="tg-wp8o"><a href="../oldfinal/spring17exam_final_KAISTans.pdf">Solution</a></td>
   </tr>
+  <tr>
+    <td class="tg-wp8o">2020</td>
+    <td class="tg-wp8o">Fall</td>
+    <td class="tg-wp8o"></td>
+    <td class="tg-wp8o"><a href="../oldfinal/fall20exam_final_KAIST.pdf">Solution</a></td>
+  </tr>
 </tbody>
 </table>
 <br>
