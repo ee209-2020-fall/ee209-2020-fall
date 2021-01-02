@@ -171,13 +171,14 @@ actually show up on the Lab machines while grading. In order to avoid
 this last-minute surprise, please test on Lab machines before
 submitting your work.
 </p>
-We will use automated program for scoring. And it will work similar by below practice in assignment 1,2(simple_grep),4,5.
-    <div class="ui message" style="margin-left:1em;"><pre>./samplewc209 &lt; <em>somefile</em> &gt; output1 2&gt; errors1
+<p>We will use automated program for scoring. And it will work similar by below practice in assignment 1,2(simple_grep),4,5.</p>
+
+<div class="ui message" style="margin-left:1em;"><pre>./samplewc209 &lt; <em>somefile</em> &gt; output1 2&gt; errors1
 ./wc209 &lt; <em>somefile</em> &gt; output2 2&gt; errors2
 diff output1 output2
 diff errors1 errors2
 rm output1 errors1 output2 errors2</pre>
-    </div> 
+</div> 
 
 <h2> Manual grading policy </h2>
 <hr>
@@ -185,3 +186,6 @@ rm output1 errors1 output2 errors2</pre>
 <p>
 Trivial mistake in your submission may cause huge amount of deduction in your assignment score. For such exceptional circumstances, you can request and get manual grading at the TA's discretion. For each modification and manual grading, you will get <font color="#FF0000">15% amount of deduction</font> from your total score.
 </p>
+
+<script src="/vendor/moment.min.js"></script>
+<script src="/vendor/ee209_assignment.js"></script>
