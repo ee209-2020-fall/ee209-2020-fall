@@ -162,15 +162,22 @@ any memory and check/handle every return value of function calls.
 <hr>
 
 <p>
-Your submission will be graded on one of the Lab machines for the
+Your submission will be graded on one of the Lab machines(eelab5) for the
 course.  You are free to use other machines for coding and debugging,
 but please make sure to compile and test your final version on the Lab
-machines. In a rare case, library mismatch or O/S stack difference
+machines(eelab5). In a rare case, library mismatch or O/S stack difference
 (Solaris vs. Linux) can bypass some of your bugs, but they can
 actually show up on the Lab machines while grading. In order to avoid
 this last-minute surprise, please test on Lab machines before
 submitting your work.
 </p>
+We will use automated program for scoring. And it will work similar by below practice in assignment 1,2(simple_grep),4,5.
+    <div class="ui message" style="margin-left:1em;"><pre>./samplewc209 &lt; <em>somefile</em> &gt; output1 2&gt; errors1
+./wc209 &lt; <em>somefile</em> &gt; output2 2&gt; errors2
+diff output1 output2
+diff errors1 errors2
+rm output1 errors1 output2 errors2</pre>
+    </div> 
 
 <h2> Manual grading policy </h2>
 <hr>

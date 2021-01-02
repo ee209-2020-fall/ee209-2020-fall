@@ -31,7 +31,9 @@
 
         <h4 class="ui center aligned header" style="font-weight: normal">(Acknowledgment: This assignment is borrowed and slightly modified from Princeton COS 217) </h4>
 
-        <h4 class="ui center aligned header" id="timer">&nbsp;</h4>
+        <h4 class="ui center aligned header" id="timer">&nbsp; </h4>
+
+        <h4 class="ui center aligned header"> this assingment does <a style="color:red">not</a> allow late submission and token</h4>
     </div>
 
 
@@ -47,7 +49,7 @@
 
     <p>Signal handling (as described below) is the "on your own" part of this assignment. </p>
 
-    <p> You will get an extra 30%(20% + 10%) of the full score if you implement file redirection and alias. See the extra credit section below.</p>
+    <p> You will get an extra 20% of the full score if you implement file redirection. See the extra credit section below.</p>
 
     <p><a href="https://docs.google.com/spreadsheets/d/1KPTUKXzgLBWM22WLxu3HJ7jKvtBz8t67nxYq1O6qrVI/edit?usp=sharing">Team Registration</a>: Register your team(Write student ID and name). <b>No need to register for the individual team</b></p>
 
@@ -62,7 +64,7 @@
     <h2 class="ui dividing header">Your Task</h2>
 
     <p>Your task in this assignment is to create a program
-        named <a style="font-size:larger"><code>ish</code></a>. Your program should be a minimal but
+        named <a style="color:red;font-size:larger">ish</a>(if your program name isn't ish it will be automatically zero score.). Your program should be a minimal but
         realistic interactive
         Unix shell. A <a href="./supplementary.html">Supplementary
             Information</a> page lists detailed implementation requirements and
@@ -90,14 +92,17 @@
         in the user's <em>HOME</em> directory, not the <em>current</em>
         (alias <em>working</em>) directory.</p>
 
+    
+
     <p>To facilitate your debugging and our testing, your program should
         print each line that it reads from <code>.ishrc</code> immediately
-        after reading it. Your program should print a percent sign and a space
-        (% ) before each such line.</p>
+        after reading it. Your program should print <a style="color:red">a percent sign and a space
+        (% )</a> before each such line.</p>
 
     <p>Your program should terminate when the user types Ctrl-d or issues
         the <code>exit</code> command. (See also the section below entitled
         "Signal Handling.")</p>
+    <p><a style="color:red">Important</a> : In supplementary information : (Required) Your program should work properly if the <code>.ishrc</code> file does not exist or is not readable. It is <b>not</b> an error for the <code>.ishrc</code> file to not exist or to be unreadable.</p>
 
     <h2 class="ui dividing header">Interactive Operation</h2>
 
@@ -233,7 +238,7 @@
         <li>If the standard output stream is redirected to a file that does not exist, then your program should create it. If the standard output stream is redirected to a file that already exists, then your program should destroy the file's contents and rewrite the file from scratch. Your program should set the permissions of the file to 0600.</li>
     </ul>
 
-    <h2>Extra Credit 2 (extra 10% of of the full score of this assignment) </h2>
+    <!--h2>Extra Credit 2 (extra 10% of of the full score of this assignment) </h2>
     <ul>
         <li>To earn this extra credit, your program should implement shell built-in command <code>alias</code>(provided in bash as well). The <code>alias</code> allows users to customize shortcuts to lengthy shell commands, following the syntax below:</li>
         <div class="ui message">
@@ -254,11 +259,16 @@
             <pre>alias ls='ls --color=auto'</pre>
         </div>
         <li>(Updated) It is applied at <code>sampleish</code>.</li>
-    </ul>
+    </ul-->
 
-    <h2>Extra Credit 3 (extra 20% of your earned score including the extra credit1 and extra credit2) </h2>
+    <!--h2>Extra Credit 3 (extra 20% of your earned score including the extra credit1 and extra credit2) </h2>
 
-    <p> If you do this assignment on your own without a partner, you will receive extra credit which is worth 20% of (your basic score + extra credit1 + extra credit3). Here is an example. If your score is 50 and you got extra credit 1 and 2, your earned score is 50 + 20 + 10 = 80.  If you worked alone, you will receive 20% x 80 = 16 additional points as extra credit 3. So, your total score will be 86.(maximum score: 156=((100+20+10)*1.2)) </p>
+    <p> If you do this assignment on your own without a partner, you will receive extra credit which is worth 20% of (your basic score + extra credit1 + extra credit3). Here is an example. If your score is 50 and you got extra credit 1 and 2, your earned score is 50 + 20 + 10 = 80.  If you worked alone, you will receive 20% x 80 = 16 additional points as extra credit 3. So, your total score will be 86.(maximum score: 156=((100+20+10)*1.2)) </p-->
+
+    <h2>Extra Credit 2 (extra 20% of your earned score including the extra credit1) </h2>
+
+    <p> If you do this assignment on your own without a partner, you will receive extra credit which is worth 20% of (your basic score + extra credit1). Here is an example. If your score is 60 and you got extra credit 1, your earned score is 60 + 20 = 80.  If you worked alone, you will receive 20% x 80 = 16 additional points as extra credit 2. So, your total score will be 86.(maximum score: 144=((100+20)*1.2)) </p>
+
     <h2><p style="color:#FF0000">This assignment's Extra credit will be caculated over 100 unlike other assignment</color></p></h2>
 
 
@@ -276,14 +286,15 @@
 
     <p>Develop on lab machines. Use <code>emacs</code> to create source code. Use <code>make</code> to automate the build process. Use <code>gdb</code> to debug.</p>
 
-    <p>An executable version of the assignment solution is available in <code><a href="./src/sampleish">sampleish</a></code>. Use it to resolve any issues concerning the desired functionality of your program. (Updated on 12/14) In case of the redirection, please use the <code><a href="./src/redirection-checker">redirection-checker</a></code> to test redirection. We also provide the <a href="./src/dynarray.h">interface</a> and <a href="./src/dynarray.c">implementation</a> of the <code>DynArray</code> ADT that we discussed in precepts. You are welcome to use that ADT in your program. </p>
+    <!--p>An executable version of the assignment solution is available in <code><a href="./src/sampleish">sampleish</a></code>. Use it to resolve any issues concerning the desired functionality of your program. (Updated on 12/14) In case of the redirection, please use the <code><a href="./src/redirection-checker">redirection-checker</a></code> to test redirection. We also provide the <a href="./src/dynarray.h">interface</a> and <a href="./src/dynarray.c">implementation</a> of the <code>DynArray</code> ADT that we discussed in precepts. You are welcome to use that ADT in your program. </p-->
+    <p>An executable version of the assignment solution is available in <code><a href="./src/sampleish">sampleish</a></code>. Use it to resolve any issues concerning the desired functionality of your program. We also provide the <a href="./src/dynarray.h">interface</a> and <a href="./src/dynarray.c">implementation</a> of the <code>DynArray</code> ADT that we discussed in precepts. You are welcome to use that ADT in your program. </p>
     <p>
         <a class="ui labeled icon button" href="./src/sampleish">
             <i class="download icon"></i><code>sampleish</code>
         </a>
-        <a class="ui labeled icon button" href="./src/redirection-checker">
+        <!--a class="ui labeled icon button" href="./src/redirection-checker">
             <i class="download icon"></i><code>redirection-checker</code>
-        </a>
+        </a-->
         <a class="ui labeled icon button" href="./src/dynarray.c">
             <i class="download icon"></i><code>dynarray.c</code>
         </a>
@@ -294,9 +305,9 @@
     <p>Your <code>readme</code> file should contain:</p>
 
     <ul>
-        <li> Your name and the name and the student ID of your partner.  If you worked alone, only your name is needed.</li>
+        <li> Your name and the name and the student ID of your partner.(you should register at <a href="https://docs.google.com/spreadsheets/d/1KPTUKXzgLBWM22WLxu3HJ7jKvtBz8t67nxYq1O6qrVI/edit?usp=sharing">Team Registration</a>  If you worked alone, only your name is needed.</li>
 
-        <li> Description of work division between you and your partner.
+        <li> Description of work division between you and your partner.)
 
         </li><li>A description of whatever help (if any) you received from others while doing the assignment, and the names of any individuals with whom you collaborated, as prescribed by the course "Policies" web page.</li>
 
@@ -319,9 +330,9 @@
         <code>YourStudentID_assign5.tar.gz</code>
 
     </p><p>
-    For example, if your student ID is 20191234,
+    For example, if your student ID is 20201234,
     please name the file as
-    <code>20191234_assign5.tar.gz</code>
+    <code>20201234_assign5.tar.gz</code>
 
     </p><p>
         Create a local directory named '<code>YourStudentID_assign5</code>' and place all your files in it. Then, <code>tar</code> your submission file.
@@ -348,7 +359,7 @@
             <div class="item">
                 <i class="archive icon"></i>
                 <div class="content">
-                    20191234_assign5.tar.gz
+                    20201234_assign5.tar.gz
                     <!--                    <div class="description">Source files for project</div>-->
                     <!--div class="list">
                         <div class="item">
