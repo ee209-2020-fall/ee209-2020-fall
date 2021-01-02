@@ -54,7 +54,7 @@
     <p> Part b is "on your own" part, and will take up 20% of the grade. </p>
     -->
 
-    <h2 class="ui dividing header">Part 1: Implement basic functions of dc</h2>
+    <h2 class="ui dividing header">Part 1: Implement basic functions of dc209</h2>
 
     <p><code>dc</code> (<em>d</em>esk <em>c</em>alculator) is a tool on
         Unix-like operating systems. In its simplest form, <code>dc</code>
@@ -105,7 +105,7 @@ q
 
     The <code>dc</code> tool supports a number of operators and subsidiary
     commands which you can study on the <a href="https://ee209-2019-spring.github.io/assignment/assembly/dc.1.html">man
-    page</a>. For this assignment, you are required to implement only the
+    page</a>. For this assignment, dc209 required to implement only the
     following operations.
 
     <ul>
@@ -151,7 +151,7 @@ q
         use global (i.e. bss section or data section) variables
         in <code>mydc.s</code>. Please make sure that you create your own
         function to implement the power (^) arithmetic
-        operator. In <code>dc</code>, negative numbers can be added by
+        operator. In <code>dc209</code>, negative numbers can be added by
         pre-appending <code>'_'</code> symbol to the number. For example</p>
 
     <p>
@@ -178,7 +178,7 @@ q
 
     <h2 class="ui dividing header">Part 2: Advanced functions</h2>
 
-    The <code>dc</code> tool also provides additional operations that
+    The <code>dc209</code> tool also provides additional operations that
     manipulate the input. You are required to implement the following
     operators for this assignment.
 
@@ -238,7 +238,7 @@ q
 
     <p>Please note that <code>'f'</code> does <b>not</b> pop out any
         numbers out of the stack. The following example run of dc shows how a
-        combination of different <code>dc</code> operators can be used:</p>
+        combination of different <code>dc209</code> operators can be used:</p>
 
     <div class="ui message">
     <pre>
@@ -266,18 +266,18 @@ f
 q
 </pre></div>
 
-    <p> <code>dc</code> keeps on pushing the integers on the stack (<code>53,
+    <p> <code>dc209</code> keeps on pushing the integers on the stack (<code>53,
         48, 35</code>) till it encounters the first <code>'+'</code> operator.
         It pops out <code>35</code> and <code>48</code>, computes the addition and
         inserts <code>83</code> back in the top of the stack. When the second
         <code>'+'</code> is inserted, it repeats the same process with the integers
         <code>83</code> and <code>53</code> and inserts back <code>136</code> in
-        the empty stack. Later when <code>'f'</code> is entered, <code>dc</code>
+        the empty stack. Later when <code>'f'</code> is entered, <code>dc209</code>
         prints out all the contents of the stack in LIFO order.
 
 
     <p>The following self-explanatory example shows how one can use <code>'d'</code>
-        in <code>dc</code></p>
+        in <code>dc209</code></p>
     <div class="ui message">
     <pre>
 4
@@ -330,15 +330,15 @@ int main() {
     </div>
     <h3>Error Handling</h3> You are required to implement basic error
     handling and ensure that your program does not crash with any given
-    input (except for one case: it is OK to crash if <code>dc</code> has to
+    input (except for one case: it is OK to crash if <code>dc209</code> has to
     divide by 0). Your program should ignore those input values that have mixed
     alphanumeric characters. You should check whether the stack has at
     least two operands for <code>+, -, *, /, %, ^</code> operations. In
-    case there are not enough operands, <code>dc</code> should print out
-    '<code>dc: stack empty</code>' to standard output.  For <code>p, d,
+    case there are not enough operands, <code>dc209</code> should print out
+    '<code>dc: stack empty</code>'(not dc209: stack empty) to standard output.  For <code>p, d,
     r, y</code> operators, <code>dc</code> should again print '<code>dc:
     stack empty</code>' if the stack does not contain at least one
-    operand (two for <code>r</code>). For all other operators, <code>dc</code> should do nothing if
+    operand (two for <code>r</code>). For all other operators, <code>dc209</code> should do nothing if
     the stack is empty.
 
 
