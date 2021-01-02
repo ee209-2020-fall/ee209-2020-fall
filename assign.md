@@ -171,7 +171,7 @@ actually show up on the Lab machines while grading. In order to avoid
 this last-minute surprise, please test on Lab machines before
 submitting your work.
 </p>
-<p>We will use automated program for scoring. And it will work similar by below practice in assignment 1,2(simple_grep),4,5.</p>
+<p>We will use automated program for scoring. And it works similar below practice in assignment 1,2(simple_grep),4,5. So you can check your functionality using diff command.</p>
 
 <div class="ui message" style="margin-left:1em;"><pre>./samplewc209 &lt; <em>somefile</em> &gt; output1 2&gt; errors1
 ./wc209 &lt; <em>somefile</em> &gt; output2 2&gt; errors2
